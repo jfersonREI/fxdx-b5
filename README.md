@@ -1,11 +1,3 @@
-<p align="center">
-  <img src=".github/logo.png" width="300" height="175" alt="Bootstrap npm logo">
-</p>
-
-<h3 align="center">xxsw2aBootstrap npm starter template</h3>
-
-<p align="center">Create new Bootstrap-powered npm projects in no time.</p>
-
 ## About
 
 `bootstrap-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v4 with plans to update for v5.
