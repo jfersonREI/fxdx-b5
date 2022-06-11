@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "app-header.css",
+	"sources": [
+		"../../../scss/navigation/app-header.scss"
+	],
+	"sourcesContent": [
+		"//app-header\r\n.app-header {\r\n  background-color: plum;\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AACA,AAAA,WAAW,AAAC,CACV,gBAAgB,CAAE,IAAI,CACvB"
+}

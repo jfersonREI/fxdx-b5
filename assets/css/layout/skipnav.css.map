@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "skipnav.css",
+	"sources": [
+		"../../../scss/layout/skipnav.scss"
+	],
+	"sourcesContent": [
+		"//skip nav link\r\n\r\n.app-skipnav {\r\n  font-size: 1.06rem;\r\n  line-height: 1.5;\r\n  color: #005ea2;\r\n  text-decoration: underline;\r\n  background: transparent;\r\n  left: 0;\r\n  padding: 0.5rem 1rem;\r\n  position: absolute;\r\n  top: -3.8rem;\r\n  transition: 0.15s ease-in-out;\r\n  z-index: 100;\r\n\r\n  &:visited {\r\n    color: #54278f;\r\n  }\r\n\r\n  &:hover {\r\n    color: #1a4480;\r\n  }\r\n\r\n  &:active {\r\n    color: #162e51;\r\n  }\r\n\r\n  &:focus {\r\n    outline: 0.25rem solid #2491ff;\r\n    outline-offset: 0;\r\n    background: white;\r\n    left: 0;\r\n    position: absolute;\r\n    top: 0;\r\n    transition: 0.15s ease-in-out;\r\n  }\r\n\r\n  &__container {\r\n    position: relative;\r\n  }\r\n}\r\n"
+	],
+	"names": [],
+	"mappings": "AAEA,AAAA,YAAY,AAAC,CACX,SAAS,CAAE,OAAO,CAClB,WAAW,CAAE,GAAG,CAChB,KAAK,CAAE,OAAO,CACd,eAAe,CAAE,SAAS,CAC1B,UAAU,CAAE,WAAW,CACvB,IAAI,CAAE,CAAC,CACP,OAAO,CAAE,WAAW,CACpB,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,OAAO,CACZ,UAAU,CAAE,iBAAiB,CAC7B,OAAO,CAAE,GAAG,CA2Bb,AAtCD,AAaE,YAbU,AAaT,QAAQ,AAAC,CACR,KAAK,CAAE,OAAO,CACf,AAfH,AAiBE,YAjBU,AAiBT,MAAM,AAAC,CACN,KAAK,CAAE,OAAO,CACf,AAnBH,AAqBE,YArBU,AAqBT,OAAO,AAAC,CACP,KAAK,CAAE,OAAO,CACf,AAvBH,AAyBE,YAzBU,AAyBT,MAAM,AAAC,CACN,OAAO,CAAE,qBAAqB,CAC9B,cAAc,CAAE,CAAC,CACjB,UAAU,CAAE,KAAK,CACjB,IAAI,CAAE,CAAC,CACP,QAAQ,CAAE,QAAQ,CAClB,GAAG,CAAE,CAAC,CACN,UAAU,CAAE,iBAAiB,CAC9B,AAEA,AAAD,uBAAY,AAAC,CACX,QAAQ,CAAE,QAAQ,CACnB"
+}
