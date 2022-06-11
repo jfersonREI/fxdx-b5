@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "colors.css",
+	"sources": [
+		"../../../scss/helpers/colors.scss"
+	],
+	"sourcesContent": [
+		"/* Colors */\r\n$disabled-dark: #adadad;\r\n$accent-warm-dark: #c05600;\r\n$base-lightest: #f0f0f0;\r\n$base-lighter: #dcdee0;\r\n$base-light: #a9aeb1;\r\n$base: #71767a;\r\n$base-dark: #565c65;\r\n$base-darker: #3d4551;\r\n$base-darkest: #1b1b1b;\r\n$primary-lighter: #d9e8f6;\r\n$primary-light: #73b3e7;\r\n$primary: #005ea2;\r\n$primary-vivid: #0050d8;\r\n$primary-dark: #1a4480;\r\n$primary-darker: #162e51;\r\n$secondary-lighter: #f8dfe2;\r\n$secondary-light: #f2938c;\r\n$secondary: #d83933;\r\n$secondary-vivid: #e41d3d;\r\n$secondary-dark: #b51d09;\r\n$secondary-darker: #8b1303;\r\n$accent-cool-lighter: #e1f3f8;\r\n$accent-cool-light: #97d4ea;\r\n$accent-cool: #00bde3;\r\n$accent-cool-dark: #28a0cb;\r\n$accent-cool-darker: #07648d;\r\n$accent-warm-lighter: #f2e4d4;\r\n$accent-warm-light: #ffbc78;\r\n$accent-warm: #fa9441;\r\n$accent-warm-darker: #775540;\r\n$info-lighter: #e7f6f8;\r\n$info-light: #99deea;\r\n$info: #00bde3;\r\n$info-dark: #009ec1;\r\n$info-darker: #2e6276;\r\n$error-lighter: #f4e3db;\r\n$error-light: #f39268;\r\n$error: #d54309;\r\n$error-dark: #b51d09;\r\n$error-darker: #6f3331;\r\n$warning-lighter: #faf3d1;\r\n$warning-light: #fee685;\r\n$warning: #ffbe2e;\r\n$warning-dark: #e5a000;\r\n$warning-darker: #936f38;\r\n$success-lighter: #ecf3ec;\r\n$success-light: #70e17b;\r\n$success: #00a91c;\r\n$success-dark: #4d8055;\r\n$success-darker: #446443;\r\n$disabled-light: #e6e6e6;\r\n$disabled: #c9c9c9;\r\n"
+	],
+	"names": [],
+	"mappings": ""
+}

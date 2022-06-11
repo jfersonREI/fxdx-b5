@@ -5,8 +5,8 @@
 		"../../../scss/layout/app-footer.scss"
 	],
 	"sourcesContent": [
-		"//footer\r\n\r\nfooter {\r\n  background-color: blue;\r\n}\r\n\r\n.usa-social-link {\r\n  color: pink;\r\n  > svg {\r\n    width: 2rem;\r\n    height: 2rem;\r\n    fill: currentColor;\r\n  }\r\n}\r\n.usa-footer__logo-img {\r\n  max-height: 80px;\r\n}\r\n.usa-footer__return-to-top {\r\n  background-color: plum;\r\n}\r\n.usa-footer__primary-section {\r\n  background-color: chocolate;\r\n}\r\n.usa-footer__secondary-section {\r\n  background-color: blueviolet;\r\n}\r\n"
+		"//footer\r\n\r\nfooter {\r\n  background-color: blue;\r\n}\r\n\r\n.usa-social-link {\r\n  color: pink;\r\n  > svg {\r\n    width: 2rem;\r\n    height: 2rem;\r\n    fill: currentColor;\r\n  }\r\n}\r\n.usa-footer__logo-img {\r\n  max-height: 80px;\r\n}\r\n.usa-footer__return-to-top {\r\n  background-color: plum;\r\n}\r\n.usa-footer__primary-section {\r\n  background-color: chocolate;\r\n}\r\n.usa-footer__secondary-section {\r\n  background-color: blue;\r\n}\r\n"
 	],
 	"names": [],
-	"mappings": "AAEA,AAAA,MAAM,AAAC,CACL,gBAAgB,CAAE,IAAI,CACvB,AAED,AAAA,gBAAgB,AAAC,CACf,KAAK,CAAE,IAAI,CAMZ,AAPD,AAEE,gBAFc,CAEZ,GAAG,AAAC,CACJ,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,IAAI,CAAE,YAAY,CACnB,AAEH,AAAA,qBAAqB,AAAC,CACpB,UAAU,CAAE,IAAI,CACjB,AACD,AAAA,0BAA0B,AAAC,CACzB,gBAAgB,CAAE,IAAI,CACvB,AACD,AAAA,4BAA4B,AAAC,CAC3B,gBAAgB,CAAE,SAAS,CAC5B,AACD,AAAA,8BAA8B,AAAC,CAC7B,gBAAgB,CAAE,UAAU,CAC7B"
+	"mappings": "AAEA,AAAA,MAAM,AAAC,CACL,gBAAgB,CAAE,IAAI,CACvB,AAED,AAAA,gBAAgB,AAAC,CACf,KAAK,CAAE,IAAI,CAMZ,AAPD,AAEE,gBAFc,CAEZ,GAAG,AAAC,CACJ,KAAK,CAAE,IAAI,CACX,MAAM,CAAE,IAAI,CACZ,IAAI,CAAE,YAAY,CACnB,AAEH,AAAA,qBAAqB,AAAC,CACpB,UAAU,CAAE,IAAI,CACjB,AACD,AAAA,0BAA0B,AAAC,CACzB,gBAAgB,CAAE,IAAI,CACvB,AACD,AAAA,4BAA4B,AAAC,CAC3B,gBAAgB,CAAE,SAAS,CAC5B,AACD,AAAA,8BAA8B,AAAC,CAC7B,gBAAgB,CAAE,IAAI,CACvB"
 }
