@@ -43,7 +43,7 @@ footer {
   padding: 2rem 0;
 }
 .app-footer__logo {
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     margin-bottom: 1rem;
   }
 }
@@ -56,7 +56,7 @@ footer {
 .app-footer-social {
   display: flex;
   justify-content: flex-end;
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     justify-content: flex-start;
   }
 }
@@ -96,7 +96,7 @@ footer {
   text-align: right;
   display: flex;
   flex-direction: column;
-  @include media-breakpoint-down(sm) {
+  @include media-breakpoint-down(md) {
     text-align: left;
   }
   &__heading {

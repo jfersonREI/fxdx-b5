@@ -1,18 +1,24 @@
+<p align="center">
+  <img src=".github/logo.png" width="300" height="175" alt="Bootstrap npm logo">
+</p>
+
+<h3 align="center">Bootstrap npm starter template</h3>
+
+<p align="center">Create new Bootstrap-powered npm projects in no time.</p>
+
 ## About
 
-`bootstrap-npm-starter` is a GitHub template repository for creating new Bootstrap-powered npm projects, maintained by Bootstrap co-author @mdo. You can also use it as your own Bootstrap prototyping sandbox. It's built with Bootstrap v4 with plans to update for v5.
+The **Bootstrap npm starter** is a GitHub template repository for quickly creating new [Bootstrap](https://getbootstrap.com)-powered npm projects. Click `Use this template` above, or clone/download it as your own Bootstrap prototyping sandbox.
+
+Includes support for importing Bootstrap via `node_modules`, adding your own customizations, and compiling CSS and JS for production. It also includes more advanced features for streamlinoing compiled code with Purge CSS and linting CSS with GitHub Actions.
 
 [![Build Status](https://github.com/twbs/bootstrap-npm-starter/workflows/CI/badge.svg)](https://github.com/twbs/bootstrap-npm-starter/actions)
-
-## Repo template
-
-Setup as a starter template, you can easily generate a new GitHub repository. From the repository homepage, click the `Use this template` button.
 
 ## What's included
 
 - Single HTML page (`index.html`) to demonstrate how to include Bootstrap.
-- Includes [Bootstrap](https://getbootstrap.com) (currently using v4.6.0) source files via npm.
-- Includes [Bootstrap Icons](https://icons.getbootstrap.com) (v1.4.0), which includes over 1,200 icons available as SVGs and web fonts.
+- Includes [Bootstrap](https://getbootstrap.com) (currently using v5.1.0) source files via npm.
+- Includes [Bootstrap Icons](https://icons.getbootstrap.com) (v1.5.0), which includes over 1,300 icons available as SVGs and web fonts.
 - npm scripts (see `package.json`) for compiling and autoprefixing Sass, watching for changes, and starting a basic local server.
 - Example stylesheet (`scss/starter.scss`) highlighting two ways to include and customize Bootstrap.
 - Example JavaScript file (`assets/js/starter.js`) showing how to import all of Bootstrap, or just the parts you need.
@@ -50,16 +56,16 @@ Open <http://localhost:3000> to see the page in action.
 
 The following npm scripts are available to you in this starter repo. With the exception of `npm start` and `npm test`, the remaining scripts can be run from your command line with `npm run scriptName`.
 
-| Script        | Description                                                                        |
-| ------------- | ---------------------------------------------------------------------------------- |
-| `server`      | Starts a local server (<http://localhost:3000>) for development                    |
-| `watch`       | Automatically recompiles CSS as it watches the `scss` directory for changes        |
-| `css`         | Runs `css-compile` and `css-prefix`                                                |
-| `css-compile` | Compiles source Sass into CSS                                                      |
-| `css-lint`    | Runs [Stylelint](https://stylelint.io) against source Sass for code quality        |
-| `css-prefix`  | Runs [Autoprefixer](https://github.com/postcss/autoprefixer) on the compiled CSS   |
-| `css-purge`   | Runs [PurgeCSS](https://purgecss.com) to remove CSS that is unused by `index.html` |
-| `test`        | Runs `css-lint` and `css`, in sequential order                                     |
+| Script | Description |
+| --- | --- |
+| `server` | Starts a local server (<http://localhost:3000>) for development |
+| `watch` | Automatically recompiles CSS as it watches the `scss` directory for changes |
+| `css` | Runs `css-compile` and `css-prefix` |
+| `css-compile` | Compiles source Sass into CSS |
+| `css-lint` | Runs [Stylelint](https://stylelint.io) against source Sass for code quality |
+| `css-prefix` | Runs [Autoprefixer](https://github.com/postcss/autoprefixer) on the compiled CSS |
+| `css-purge` | Runs [PurgeCSS](https://purgecss.com) to remove CSS that is unused by `index.html` |
+| `test` | Runs `css-lint` and `css`, in sequential order |
 
 ## Advanced usage
 
