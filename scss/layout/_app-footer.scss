@@ -1,18 +1,40 @@
 //footer
+$footer-color: #fff;
 $footer-link-color: #fff;
 $footer-link-color-hover: #fff;
 footer {
   background-color: transparent;
+  color: $footer-color;
 }
 
-.usa-social-link {
-  color: $footer-link-color;
-  > svg {
-    width: 2rem;
-    height: 2rem;
-    fill: currentColor;
+.usa-social-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-flow: row wrap;
+  &__item {
+    background-color: transparent;
+    margin-right: 1rem;
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+
+  &__link {
+    color: $footer-link-color;
+    &:hover,
+    &:focus {
+      color: $footer-link-color-hover;
+    }
+    > svg {
+      width: 2rem;
+      height: 2rem;
+      fill: currentColor;
+    }
   }
 }
+
 .usa-footer__logo-img {
   max-height: 80px;
 }
@@ -24,6 +46,7 @@ footer {
 }
 .usa-footer__secondary-section {
   background-color: $primary-darker;
+  padding: 2rem 0;
 }
 
 .usa-footer__address {
