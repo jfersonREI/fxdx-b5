@@ -2,7 +2,7 @@
   <img src=".github/logo.png" width="300" height="175" alt="Bootstrap npm logo">
 </p>
 
-<h3 align="center">www2Bootstrap npm starter template</h3>
+<h3 align="center">www2aBootstrap npm starter template</h3>
 
 <p align="center">Create new Bootstrap-powered npm projects in no time.</p>
 
