@@ -29,6 +29,7 @@ $enable-shadows: true;
 
 // Customize some defaults
 @import "helpers/colors";
+
 $body-color: $base-darkest;
 $body-bg: #fff;
 $border-radius: 0.4rem;
@@ -36,6 +37,14 @@ $success: #7952b3;
 $font-family-base: "Public Sans", -apple-system, BlinkMacSystemFont, Segoe UI,
   Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
   Segoe UI Symbol;
+
+$container-max-widths: (
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
 
 @import "bootstrap/scss/functions"; // Required
 @import "bootstrap/scss/variables"; // Required
