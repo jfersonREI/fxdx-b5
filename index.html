@@ -16,7 +16,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="assets/css/styles.css" />
-    <title>Document</title>
+    <title>FEMADex - Home</title>
     <!-- Favicons ================================ -->
     <link
       rel="apple-touch-icon"
@@ -48,34 +48,65 @@
   </head>
   <body>
     <a class="app-skipnav" href="#main-content">Skip to main content</a>
+
     <header class="app-header">
       <div class="container">
-        <div class="app-logo">
-          <a href="/">
-            <img
-              src="assets/img/logos/logo-femadex.svg"
-              alt="FEMADex"
-              width="188"
-              height="30"
-          /></a>
+        <div class="app-header-group">
+          <div class="app-logo">
+            <a href="/">
+              <img
+                src="assets/img/logos/logo-femadex.svg"
+                alt="FEMADex"
+                width="188"
+                height="30"
+            /></a>
+          </div>
+          <div class="app-nav-group">
+            <div class="app-nav">
+              <nav>
+                <ul class="app-nav-list">
+                  <li class="app-nav-list__item">Workspaces</li>
+                  <li class="app-nav-list__item">Data Products</li>
+                  <li class="app-nav-list__item">Portals</li>
+                  <li class="app-nav-list__item">Resources</li>
+                </ul>
+              </nav>
+            </div>
+
+            <div class="app-nav-search"><button>search</button></div>
+
+            <div class="app-user">
+              <div class="app-user__btn">
+                <span class="app-user__name">UFT Analyst3</span
+                ><span class="app-user__icon">icon</span>
+              </div>
+              user btn
+            </div>
+          </div>
+          <!-- /.app-nav-group -->
         </div>
-
-        <div class="app-nav">
-          <nav>
-            <ul class="app-nav-list">
-              <li class="app-nav-list__item">link</li>
-              <li class="app-nav-list__item">link</li>
-              <li class="app-nav-list__item">link</li>
-              <li class="app-nav-list__item">link</li>
-            </ul>
-          </nav>
-        </div>
-
-        <div class="app-nav-search"><button>search</button></div>
-
-        <div class="app-user-menu">user</div>
+        <!-- /.app-header-group -->
       </div>
       <!-- /.container -->
+
+      <!-- MOBILE TOGGLE -->
+      <button
+        class="app-toggle-menu"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#bdNavbar"
+        aria-controls="bdNavbar"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+          <path
+            fill-rule="evenodd"
+            d="M3 18h18v-2H3v2Zm0-5h18v-2H3v2Zm0-7v2h18V6H3Z"
+            clip-rule="evenodd"
+          />
+        </svg>
+      </button>
     </header>
     <!-- /.app-header -->
 
