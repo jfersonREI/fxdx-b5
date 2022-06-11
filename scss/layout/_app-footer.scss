@@ -7,11 +7,11 @@ footer {
   color: $footer-color;
 }
 
-.usa-footer-social {
+.app-footer-social {
   display: flex;
   justify-content: flex-end;
 }
-.usa-social-list {
+.app-social-list {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -39,25 +39,25 @@ footer {
   }
 }
 
-.usa-footer__logo-img {
+.app-footer__logo-img {
   max-height: 80px;
 }
-.usa-footer__return-to-top {
+.app-footer__return-to-top {
   background-color: plum;
 }
-.usa-footer__primary-section {
+.app-footer__primary-section {
   background-color: $primary-dark;
 }
-.usa-footer__secondary-section {
+.app-footer__secondary-section {
   background-color: $primary-darker;
   padding: 2rem 0;
 }
 
-.usa-footer__address {
+.app-footer__address {
   margin: 0;
 }
 
-.usa-footer__nav-list {
+.app-footer__nav-list {
   margin: 0;
   padding: 0;
   display: flex;
@@ -84,7 +84,7 @@ footer {
   }
 }
 
-.usa-footer-contact {
+.app-footer-contact {
   text-align: right;
   display: flex;
   flex-direction: column;
