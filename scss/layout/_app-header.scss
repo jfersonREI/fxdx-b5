@@ -14,32 +14,53 @@
 .app-nav-group {
   background-color: pink;
   display: flex;
+  align-items: center;
 }
 .app-nav {
   display: flex;
+  align-items: center;
   background-color: aqua;
+  margin: 0;
+  padding: 0;
 }
+.app-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  &__item {
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+  }
+}
+
 .app-user {
   background: forestgreen;
 }
 
 //toggles
+
 .app-toggle-menu {
-  background-color: $base-light;
-  padding: 0.5rem;
-  border: none;
-  position: absolute;
-  top: 0;
-  right: 1rem;
-  > svg {
-    fill: $base-darkest;
-    width: 1.5rem;
-    height: 1.5rem;
-  }
-  &:hover,
-  &:focus {
+  display: none;
+  @include media-breakpoint-down(lg) {
+    display: block;
+    background-color: $base-light;
+    padding: 0.5rem;
+    border: none;
+    position: absolute;
+    top: 0;
+    right: 0.75rem;
     > svg {
-      fill: $primary-dark;
+      fill: $base-darkest;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+    &:hover,
+    &:focus {
+      > svg {
+        fill: $primary-dark;
+      }
     }
   }
 }
