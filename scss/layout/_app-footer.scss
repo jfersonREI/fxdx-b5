@@ -111,6 +111,7 @@ footer {
   &__contact-info {
     > a {
       color: $footer-link-color;
+      text-decoration: none;
       &:hover,
       &:focus {
         text-decoration: underline;
