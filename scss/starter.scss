@@ -9,7 +9,6 @@
 // `$body-color` or write more CSS that override's Bootstrap's CSS like so:
 // `body { color: red; }`.
 
-
 //
 // Bring in Bootstrap
 //
@@ -30,8 +29,8 @@ $enable-shadows: true;
 
 // Customize some defaults
 $body-color: #333;
-$body-bg: #fff;
-$border-radius: .4rem;
+$body-bg: #fce;
+$border-radius: 0.4rem;
 $success: #7952b3;
 
 @import "bootstrap/scss/functions"; // Required
@@ -72,7 +71,6 @@ $success: #7952b3;
 // @import "bootstrap/scss/spinners";
 @import "bootstrap/scss/utilities";
 // @import "bootstrap/scss/print";
-
 
 //
 // Custom styles
