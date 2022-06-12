@@ -23,6 +23,14 @@
   &:hover {
     color: $primary-dark;
   }
+  .usa-banner__button-icon svg {
+    transform: rotate(0deg);
+  }
+  &.collapsed {
+    .usa-banner__button-icon svg {
+      transform: rotate(180deg);
+    }
+  }
 }
 .usa-banner__button-icon {
   display: block;
