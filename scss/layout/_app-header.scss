@@ -89,7 +89,7 @@ $app-guide-transition-duration: 0.3s;
       right: 1rem;
       bottom: 0;
       height: 0;
-      transition: height 0.2s ease-in-out;
+      transition: height 0.15s ease-in-out;
       background: $primary;
     }
     &:hover {
@@ -104,22 +104,26 @@ $app-guide-transition-duration: 0.3s;
 
 .app-user {
   background: transparent;
+  margin-left: 1rem;
   &__btn {
     border: none;
     background-color: transparent;
+    color: $base-darker;
     display: flex;
     align-items: center;
     margin: 0 -0.5rem 0 0;
     padding: 0.5rem;
     max-width: 11rem;
     border-radius: 0.25rem;
+    transition: background-color 0.15s ease-in-out;
     &:hover {
       background-color: $base-lightest;
+      color: $primary;
     }
   }
   &__name {
     font-size: 0.9375rem;
-    color: $base-darker;
+    color: currentColor;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
