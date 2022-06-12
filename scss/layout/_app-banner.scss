@@ -33,27 +33,29 @@
 }
 
 .usa-banner__content {
-  padding-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
   padding-left: 1rem;
   padding-top: 1.5rem;
   font-size: 0.875rem;
 }
 
-.usa-banner__block {
+.usa-media-block {
   display: flex;
   padding-right: 1rem;
   &:first-of-type {
     margin-left: -1rem;
   }
-}
-.usa-media-block__body {
+
+  &__body {
+  }
+
+  &__icon {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin-right: 0.5rem;
+  }
 }
 
-.usa-banner__icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  margin-right: 0.5rem;
-}
 .icon-lock {
   display: inline-flex;
   align-items: center;
