@@ -114,16 +114,20 @@ $app-guide-transition-duration: 0.3s;
     margin: 0 -0.5rem 0 0;
     padding: 0.5rem;
     max-width: 11rem;
+    border-radius: 0.25rem;
+    &:hover {
+      background-color: $base-lightest;
+    }
   }
   &__name {
+    font-size: 0.9375rem;
     color: $base-darker;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
   }
   &__icon {
-    background-color: #fff;
-    margin-left: 1rem;
+    margin-left: 0.75rem;
   }
 }
 
