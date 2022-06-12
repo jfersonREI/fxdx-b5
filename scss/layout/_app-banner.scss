@@ -2,6 +2,7 @@
   background-color: $base-lightest;
   &__hdr {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     font-size: 0.75rem;
     min-height: 1.375rem;
