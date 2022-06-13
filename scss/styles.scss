@@ -39,11 +39,12 @@ $font-family-base: "Public Sans", -apple-system, BlinkMacSystemFont, Segoe UI,
   Segoe UI Symbol;
 
 $container-max-widths: (
-  sm: 540px,
+  //sm: 540px,
+  sm: 100%,
   md: 720px,
   lg: 960px,
   xl: 1140px,
-  xxl: 1320px,
+  xxl: 1320px
 );
 
 // Required

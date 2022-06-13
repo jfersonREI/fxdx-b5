@@ -140,10 +140,15 @@ $app-guide-transition-duration: 0.3s;
     padding: 0.5rem;
     max-width: 11rem;
     border-radius: 0.25rem;
-    transition: background-color 0.15s ease-in-out;
+    transition: all 0.15s ease-in-out;
     &:hover {
-      background-color: $base-lightest;
+      background-color: transparent;
       color: $primary;
+      .avatar {
+        outline: $primary 3px solid;
+        outline-offset: 2px;
+        transition: outline 0.07s ease-in-out;
+      }
     }
   }
   &__name {
