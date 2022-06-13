@@ -141,6 +141,7 @@ $app-guide-transition-duration: 0.3s;
     max-width: 11rem;
     border-radius: 0.25rem;
     transition: all 0.15s ease-in-out;
+
     &:hover {
       background-color: transparent;
       color: $primary;
