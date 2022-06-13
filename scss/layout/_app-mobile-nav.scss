@@ -171,6 +171,21 @@
 .app-mobile-close {
   background-color: transparent;
 }
+.app-mobile-close-btn {
+  background-color: transparent;
+  border: 0;
+  padding: 0.5rem;
+  color: $base;
+  &:hover {
+    color: $primary;
+  }
+  img,
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: currentColor;
+  }
+}
 
 /////////////////////////////////////////////////////////
 //logo
