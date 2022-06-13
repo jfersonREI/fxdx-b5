@@ -150,16 +150,22 @@
 }
 
 .app-mobile-header {
-  background-color: red;
+  background-color: white;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 0;
-  padding: 1.5rem;
+  padding: 1rem;
+  box-shadow: 0px 4px 8px rgba(50, 50, 50, 0.03);
 }
 
 .app-mobile-logo {
   background: none;
+  img,
+  svg {
+    width: 100%;
+    height: auto;
+  }
 }
 
 .app-mobile-close {
@@ -185,7 +191,7 @@
 
 .app-logo-image-mobile {
   display: block;
-  width: 120px;
+  width: 9rem;
   height: auto;
   fill: currentColor;
 }
