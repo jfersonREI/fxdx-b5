@@ -65,7 +65,7 @@
     transition-duration: $app-guide-transition-duration;
   }
 }
-
+//header
 .app-mobile-header {
   background-color: $app-guide-header-bg;
   display: flex;
@@ -73,6 +73,9 @@
   align-items: center;
   margin-bottom: 0;
   padding: 1.5rem;
+  height: $app-topbar-height-sm;
+  z-index: 1;
+  position: relative;
 }
 
 .app-mobile-logo {
@@ -81,6 +84,34 @@
 
 .app-mobile-close {
   background-color: transparent;
+}
+
+//wrapper for nav should handle scrolling
+.app-mobile-nav-list-group {
+  background: $app-guide-bg-color;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: $app-topbar-height-sm;
+  overflow: auto;
+}
+
+.app-mobile-nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  &__item {
+    border-bottom: $base-lighter 1px solid;
+    font-size: 1rem;
+    font-weight: 600;
+  }
+  &__link {
+    padding: 1rem;
+    display: block;
+    color: $base-darker;
+    text-decoration: none;
+  }
 }
 
 /////////////////////////////////////////////////////////
