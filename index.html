@@ -222,6 +222,7 @@
         <!-- MOBILE TOGGLE -->
         <button
           class="app-toggle-menu"
+          id="appMobileNavToggle"
           type="button"
           aria-expanded="false"
           aria-label="Toggle navigation"
@@ -239,6 +240,54 @@
       <!-- /.container -->
     </header>
     <!-- /.app-header -->
+
+    <div class="app-mobile-nav-group" opened="">
+      <div class="app-mobile-scrim" visible=""></div>
+      <div class="app-mobile-nav-group-inner" opened="">
+        <div class="app-mobile-header">
+          <div class="app-mobile-logo">
+            <span class="app-logo-image-mobile">
+              <a href="javascript:void(0);">
+                <img
+                  src="assets/img/logos/logo-femadex.svg"
+                  alt="FEMADex"
+                  width="188"
+                  height="30"
+              /></a>
+            </span>
+            <!-- /.app-logo-image -->
+          </div>
+          <div class="app-mobile-close">
+            <button
+              class="app-mobile-close-btn"
+              aria-label="Close Menu"
+              aria-expanded="false"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M4.92896 17.6567 17.65688206 4.92877794l1.41421356 1.41421356L6.34317356 19.07091356z"
+                />
+                <path
+                  d="M17.6569 19.071 4.92897794 6.34307794 6.3431915 4.92886438l12.72792206 12.72792206z"
+                />
+              </svg>
+            </button>
+          </div>
+          <!-- /.app-mobile-close -->
+          <!-- /.app-mobile-logo -->
+        </div>
+        <!-- /.app-mobile-header -->
+        <div class="app-nav-list-group">NAV MOBILE</div>
+        <!-- /.app-nav-list-group -->
+      </div>
+      <!-- /.app-mobile-nav-group-inner -->
+    </div>
+
+    <!--  -->
 
     <main id="main-content">
       <div class="app-main">
@@ -387,5 +436,6 @@
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
       crossorigin="anonymous"
     ></script>
+    <script src="assets/js/app-mobile-nav.js"></script>
   </body>
 </html>
