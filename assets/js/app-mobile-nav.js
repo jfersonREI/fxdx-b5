@@ -1,7 +1,7 @@
 const body = document.querySelector("body");
 const appSidebar = document.querySelector(".app-mobile-nav-group");
 const appScrim = document.querySelector(".app-mobile-scrim");
-const appTopbarNavicon = document.querySelector(".app-navicon-btn");
+const appTopbarNavicon = document.querySelector("#appMobileNavToggle");
 const appSidebarContainer = document.querySelector(
   ".app-mobile-nav-group-inner"
 );
