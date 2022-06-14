@@ -20,7 +20,7 @@ function toggleMenu() {
     appSidebar.setAttribute("opened", "");
     appSidebarContainer.setAttribute("opened", "");
     body.style.overflow = "hidden";
-    body.style.position = "fixed";
+    body.style.position = "relative";
     appGuideNavicon.focus();
     appScrim.setAttribute("visible", "");
   }
