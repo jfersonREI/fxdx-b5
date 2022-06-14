@@ -126,9 +126,9 @@
   &__icon-text {
     display: inline-flex;
     align-items: center;
+    min-width: 0; //need for text truncation
   }
   &__icon {
-    background-color: plum;
     width: 1.5rem;
     height: 1.5rem;
     margin-left: 0.5rem;
@@ -145,7 +145,6 @@
     }
   }
   &__expand {
-    background-color: aquamarine;
     width: 1.5rem;
     height: 1.5rem;
     display: inline-flex;
@@ -155,6 +154,12 @@
       height: auto;
       fill: currentColor;
     }
+  }
+  &__username {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-right: 0.5rem;
   }
 }
 
