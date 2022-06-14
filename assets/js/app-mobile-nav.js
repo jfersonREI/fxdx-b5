@@ -20,6 +20,7 @@ function toggleMenu() {
     appSidebar.setAttribute("opened", "");
     appSidebarContainer.setAttribute("opened", "");
     body.style.overflow = "hidden";
+    body.style.position = "relative";
     appGuideNavicon.focus();
     appScrim.setAttribute("visible", "");
   }
@@ -33,6 +34,7 @@ function closeGuideMenu() {
   appSidebarContainer.removeAttribute("opened", "");
   appScrim.removeAttribute("visible", "");
   body.style.removeProperty("overflow");
+  body.style.removeProperty("position");
 }
 
 //backdrop
@@ -43,6 +45,7 @@ function closeScrim() {
   appSidebarContainer.removeAttribute("opened", "");
   appScrim.removeAttribute("visible", "");
   body.style.removeProperty("overflow");
+  body.style.removeProperty("position");
 }
 
 //screen resizing
@@ -64,6 +67,7 @@ function mediaqueryresponse() {
     appSidebarContainer.removeAttribute("opened", "");
     appScrim.removeAttribute("visible", "");
     body.style.removeProperty("overflow");
+    body.style.removeProperty("position");
   }
   if (mqls[2].matches) {
   }
@@ -73,6 +77,7 @@ function mediaqueryresponse() {
 
     appScrim.removeAttribute("visible", "");
     body.style.removeProperty("overflow");
+    body.style.removeProperty("position");
   }
 }
 
