@@ -108,11 +108,52 @@
   }
   &__link {
     padding: 1rem;
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     color: $base-darker;
     text-decoration: none;
+    background: transparent;
+    border: 0;
+    width: 100%;
+    font-size: inherit;
+    font-weight: inherit;
     &:hover {
       color: $primary;
+      background-color: $base-lightest;
+    }
+  }
+  &__icon-text {
+    display: inline-flex;
+    align-items: center;
+  }
+  &__icon {
+    background-color: plum;
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+    display: inline-flex;
+    svg,
+    img {
+      width: 100%;
+      height: auto;
+      fill: currentColor;
+    }
+    &--sm {
+      width: 1.125rem;
+      height: 1.125rem;
+    }
+  }
+  &__expand {
+    background-color: aquamarine;
+    width: 1.5rem;
+    height: 1.5rem;
+    display: inline-flex;
+    svg,
+    img {
+      width: 100%;
+      height: auto;
+      fill: currentColor;
     }
   }
 }
