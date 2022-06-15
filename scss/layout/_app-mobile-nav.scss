@@ -76,7 +76,7 @@
   z-index: 1;
   position: relative;
   padding: 1rem;
-  box-shadow: 0px 4px 8px rgba(50, 50, 50, 0.03);
+  box-shadow: 0px 1px 0px 0px $base-lighter;
 }
 
 .app-mobile-logo {
@@ -104,7 +104,7 @@
   padding: 0;
   &__item {
     border-bottom: $base-lighter 1px solid;
-    font-size: 1.125rem;
+    font-size: 1rem;
     font-weight: 500;
   }
   &__link {
@@ -253,9 +253,9 @@
   background-color: transparent;
   border: 0;
   padding: 0.5rem;
-  color: #fff;
+  color: $base-darkest;
   &:hover {
-    color: #fff;
+    color: $primary;
   }
   img,
   svg {
