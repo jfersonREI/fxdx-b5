@@ -124,6 +124,11 @@
       color: $primary;
       background-color: $base-lightest;
     }
+    &.collapsed {
+      .app-mobile-nav-list__expand {
+        transform: rotate(0deg);
+      }
+    }
   }
   &__icon-text {
     display: inline-flex;
@@ -156,6 +161,7 @@
     height: 1.5rem;
     display: inline-flex;
     flex: 0 0 1.5rem;
+    transform: rotate(180deg);
     svg,
     img {
       width: 100%;
