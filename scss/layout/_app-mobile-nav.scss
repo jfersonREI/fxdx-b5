@@ -133,6 +133,7 @@
     height: 1.5rem;
     margin-left: 0.5rem;
     display: inline-flex;
+    flex: 0 0 1.5rem;
     svg,
     img {
       width: 100%;
@@ -143,11 +144,16 @@
       width: 1.125rem;
       height: 1.125rem;
     }
+    &--avatar {
+      margin-right: 0.5rem;
+      margin-left: 0;
+    }
   }
   &__expand {
     width: 1.5rem;
     height: 1.5rem;
     display: inline-flex;
+    flex: 0 0 1.5rem;
     svg,
     img {
       width: 100%;
