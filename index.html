@@ -326,7 +326,13 @@
                 </button>
               </li>
               <li class="app-mobile-nav-list__item">
-                <button class="app-mobile-nav-list__link collapsed">
+                <button
+                  class="app-mobile-nav-list__link collapsed"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#appMobileNavSearch"
+                  aria-expanded="false"
+                  aria-controls="appMobileNavSearch"
+                >
                   <span class="app-mobile-nav-list__icon-text">
                     Search<span
                       class="app-mobile-nav-list__icon app-mobile-nav-list__icon--sm"
@@ -359,6 +365,44 @@
                     </svg>
                   </span>
                 </button>
+                <div
+                  class="app-mobile-nav-search collapse"
+                  id="appMobileNavSearch"
+                >
+                  <div class="app-mobile-nav-search__search-form">
+                    <div class="app-mobile-nav-search__form-control">
+                      <label for="appMobileSearchInput" class="visually-hidden"
+                        >Enter search term</label
+                      >
+                      <input
+                        type="text"
+                        class="app-mobile-nav-search__input"
+                        id="appMobileSearchInput"
+                      />
+                    </div>
+                    <div class="app-mobile-nav-search__form-control">
+                      <label for="appMobileSearchSelect" class="visually-hidden"
+                        >Search in:</label
+                      >
+                      <select
+                        name="appMobileSearchSelect"
+                        id="appMobileSearchSelect"
+                        class="app-mobile-nav-search__select"
+                      >
+                        <option value="dataproducts">Data Products</option>
+                        <option value="site">Site</option>
+                      </select>
+                    </div>
+                    <div class="app-mobile-nav-search__form-control">
+                      <input
+                        type="button"
+                        value="Search"
+                        class="app-mobile-nav-search__btn"
+                      />
+                    </div>
+                  </div>
+                </div>
+                <!-- /.app-mobile-nav-search -->
               </li>
 
               <li class="app-mobile-nav-list__item">

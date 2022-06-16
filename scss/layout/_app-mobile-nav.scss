@@ -220,6 +220,32 @@
   }
 }
 
+//////search box
+.app-mobile-nav-search {
+  padding: 1rem;
+  background-color: $accent-cool-lighter;
+  &__search-form {
+    border: 0;
+    margin: 0;
+    padding: 0;
+  }
+  &__form-control {
+    margin: 0 0 1rem 0;
+    &:last-of-type {
+      margin-bottom: 0;
+    }
+  }
+  &__input {
+    width: 100%;
+  }
+  &__select {
+    width: 100%;
+  }
+  &__btn {
+    width: 100%;
+    display: block;
+  }
+}
 /////////////////////////////////////////////////////////
 //logo
 .app-logo-image {
