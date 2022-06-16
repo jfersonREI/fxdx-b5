@@ -1,6 +1,5 @@
 //stop scrolling of body
 body[noscroll] {
-  /* when modal active */
   touch-action: none;
   -webkit-overflow-scrolling: none;
   overflow: hidden;
