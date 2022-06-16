@@ -20,6 +20,7 @@
   text-decoration: underline;
   display: inline-flex;
   align-items: center;
+  background: transparent;
   &:active,
   &:hover {
     color: $primary-dark;
