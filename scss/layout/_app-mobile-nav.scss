@@ -1,3 +1,13 @@
+//stop scrolling of body
+body[noscroll] {
+  /* when modal active */
+  touch-action: none;
+  -webkit-overflow-scrolling: none;
+  overflow: hidden;
+  /* Other browsers */
+  overscroll-behavior: none;
+}
+
 //nav holder
 .app-mobile-nav-group {
   position: fixed;
