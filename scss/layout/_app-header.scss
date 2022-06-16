@@ -165,7 +165,7 @@ $app-guide-transition-duration: 0.3s;
 
 //toggle
 
-.app-toggle-menu {
+.app-menu-btn {
   display: none;
   @include media-breakpoint-down(lg) {
     display: block;
