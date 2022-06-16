@@ -19,7 +19,7 @@ function toggleMenu() {
     appSidebarContainer.removeAttribute("no-transition", "");
     appSidebar.setAttribute("opened", "");
     appSidebarContainer.setAttribute("opened", "");
-    body.style.overflow = "hidden";
+    body.setAttribute("noscroll", "");
     appGuideNavicon.focus();
     appScrim.setAttribute("visible", "");
   }
@@ -32,7 +32,7 @@ function closeGuideMenu() {
   appSidebar.removeAttribute("opened", "");
   appSidebarContainer.removeAttribute("opened", "");
   appScrim.removeAttribute("visible", "");
-  body.style.removeProperty("overflow");
+  body.removeAttribute("noscroll", "");
   appTopbarNavicon.focus();
 }
 
@@ -43,7 +43,7 @@ function closeScrim() {
   appSidebar.removeAttribute("opened", "");
   appSidebarContainer.removeAttribute("opened", "");
   appScrim.removeAttribute("visible", "");
-  body.style.removeProperty("overflow");
+  body.removeAttribute("noscroll", "");
 }
 
 //screen resizing
@@ -64,7 +64,7 @@ function mediaqueryresponse() {
     appSidebar.removeAttribute("opened", "");
     appSidebarContainer.removeAttribute("opened", "");
     appScrim.removeAttribute("visible", "");
-    body.style.removeProperty("overflow");
+    body.removeAttribute("noscroll", "");
   }
   if (mqls[2].matches) {
   }
@@ -73,7 +73,7 @@ function mediaqueryresponse() {
     appSidebarContainer.removeAttribute("opened", "");
 
     appScrim.removeAttribute("visible", "");
-    body.style.removeProperty("overflow");
+    body.removeAttribute("noscroll", "");
   }
 }
 
