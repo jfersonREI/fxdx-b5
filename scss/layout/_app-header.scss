@@ -145,9 +145,9 @@ $app-guide-transition-duration: 0.3s;
       background-color: transparent;
       color: $primary;
       .avatar {
-        outline: $primary 3px solid;
-        outline-offset: -3px;
-        transition: outline 0.07s ease-in-out;
+        //outline: $primary 3px solid;
+        //outline-offset: -3px;
+        //transition: outline 0.07s ease-in-out;
       }
     }
   }
