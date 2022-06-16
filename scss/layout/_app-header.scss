@@ -1,22 +1,19 @@
 //app-header
 
-//header
+//variables
 $app-header-transition-duration: 0.3s;
 $app-header-bg: #fff;
 $app-topbar-height-sm: 4rem;
 $app-topbar-height-lg: 5.5rem;
-
-$app-topbar-nav-color: red;
-$app-topbar-nav-color-hover: blue;
-
-$app-topbar-nav-color-light: #fff;
-$app-topbar-nav-color-light-hover: #fff;
+$app-topbar-nav-color: $base-dark;
+$app-topbar-nav-color-hover: $primary;
 
 $app-sidebar-width: 22.5rem;
 $app-guide-bg-color: #fff;
 $app-guide-header-bg: #fff;
 $app-guide-transition-duration: 0.3s;
-//
+
+//header
 .app-header {
   background-color: $app-header-bg;
   box-shadow: 0px 4px 8px rgba(50, 50, 50, 0.03);
@@ -29,13 +26,14 @@ $app-guide-transition-duration: 0.3s;
     height: $app-topbar-height-lg;
   }
 }
-.app-header-group {
+//topbar
+.app-topbar {
   display: flex;
   flex-direction: row nowrap;
   justify-content: space-between;
   align-items: center;
 }
-
+//logo
 .app-logo {
   width: 9rem;
   svg,
@@ -47,7 +45,7 @@ $app-guide-transition-duration: 0.3s;
     width: 11rem;
   }
 }
-
+//nav
 .app-nav-group {
   display: none;
 
@@ -84,7 +82,7 @@ $app-guide-transition-duration: 0.3s;
     text-decoration: none;
     display: block;
     position: relative;
-    color: $base-dark;
+    color: $app-topbar-nav-color;
 
     &::after {
       content: "";
@@ -98,7 +96,7 @@ $app-guide-transition-duration: 0.3s;
       background: $primary;
     }
     &:hover {
-      color: $primary;
+      color: $app-topbar-nav-color-hover;
 
       &::after {
         height: 0.25rem;
@@ -106,7 +104,7 @@ $app-guide-transition-duration: 0.3s;
     }
   }
 }
-
+//search
 .app-nav-search {
   margin: 0;
   padding: 0;
@@ -127,8 +125,8 @@ $app-guide-transition-duration: 0.3s;
     }
   }
 }
-
-.app-user {
+//user
+.app-nav-user {
   background: transparent;
   margin-left: 1rem;
   &__btn {
@@ -165,7 +163,7 @@ $app-guide-transition-duration: 0.3s;
   }
 }
 
-//toggles
+//toggle
 
 .app-toggle-menu {
   display: none;
