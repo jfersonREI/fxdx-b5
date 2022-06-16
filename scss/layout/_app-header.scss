@@ -129,6 +129,7 @@ $app-guide-transition-duration: 0.3s;
   border-radius: 0;
   border: 0;
   box-shadow: none;
+  margin-top: 0 !important; //bs override
 }
 .moop-submenu-list {
   margin: 0;
