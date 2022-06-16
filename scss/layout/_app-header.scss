@@ -148,6 +148,7 @@ $app-guide-transition-duration: 0.3s;
       color: $primary;
       .avatar {
         outline: $primary 3px solid;
+        outline-offset: -3px;
         transition: outline 0.07s ease-in-out;
       }
     }
