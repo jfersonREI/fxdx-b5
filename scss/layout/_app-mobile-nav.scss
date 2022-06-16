@@ -222,8 +222,8 @@
 
 //////search box
 .app-mobile-nav-search {
-  padding: 1rem;
-  background-color: $accent-cool-lighter;
+  padding: 1.5rem 1rem 1.5rem 1rem;
+  border-top: $base-lighter 1px solid;
   &__search-form {
     border: 0;
     margin: 0;
