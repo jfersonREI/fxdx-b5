@@ -8,7 +8,7 @@ $app-topbar-height-lg: 5.5rem;
 $app-topbar-nav-color: $base-dark;
 $app-topbar-nav-color-hover: $primary;
 
-$app-sidebar-width: 22.5rem;
+$app-sidebar-width: 20rem;
 $app-guide-bg-color: #fff;
 $app-guide-header-bg: #fff;
 $app-guide-transition-duration: 0.3s;
@@ -107,11 +107,16 @@ $app-guide-transition-duration: 0.3s;
     &.show {
       background-color: $primary-darker;
       color: #fff;
+      transition: all 0.15s ease-in-out;
+      &::after {
+        height: 0.25rem;
+      }
       &:hover {
         color: #fff;
 
         &::after {
-          display: none;
+          //display: none;
+          background-color: $primary;
         }
       }
     }
