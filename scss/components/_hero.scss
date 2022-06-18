@@ -10,19 +10,24 @@
 
 .usa-hero__callout {
   background-color: $primary-dark;
-  padding: 2rem;
-}
-@media (min-width: 40em) {
-  .usa-hero__callout {
-    max-width: 30rem;
+  padding: 2.5rem;
+  @include media-breakpoint-up(md) {
+    max-width: 27.75rem;
+  }
+  p {
+    margin-bottom: 1.875rem;
   }
 }
+
 .usa-hero__heading {
   font-weight: 600;
   font-size: 1.875rem;
+  margin-bottom: 1.25rem;
 
   &--alt {
-    color: #fff;
+    color: $primary-lighter;
+    font-size: 1.25rem;
+    font-weight: 400;
     display: block;
   }
 }
