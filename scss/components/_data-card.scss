@@ -1,0 +1,49 @@
+$data-card-padding: 1.5rem;
+
+.data-card {
+  border: red 1px solid;
+  padding: 0;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  border: $base-lighter 1px solid;
+  overflow: hidden;
+  &__media {
+    padding: 0;
+    background-color: darkkhaki;
+  }
+  &__thumb {
+    width: 100%;
+    height: auto;
+  }
+  &__headline {
+    padding: $data-card-padding;
+  }
+  &__title {
+    display: block;
+    margin: 0 0 0.5rem 0;
+    color: $base-darkest;
+    font-size: 1rem;
+    font-weight: 700;
+  }
+  &__subtitle {
+    display: block;
+    margin: 0;
+    text-transform: uppercase;
+    color: $base-darker;
+    font-size: 0.875rem;
+    font-weight: 500;
+  }
+
+  &__supporting-text {
+    padding: 0 $data-card-padding $data-card-padding $data-card-padding;
+  }
+  &__desc {
+    margin: 0;
+    font-size: 0.875rem;
+    color: $base-darker;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    overflow: hidden;
+  }
+}
