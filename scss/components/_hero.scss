@@ -1,4 +1,4 @@
-.usa-hero {
+.app-hero {
   line-height: 1.5;
   padding-bottom: 2rem;
   padding-top: 2rem;
@@ -8,7 +8,7 @@
   color: #fff;
 }
 
-.usa-hero__callout {
+.app-hero__callout {
   background-color: $primary-dark;
   padding: 2.5rem;
   @include media-breakpoint-up(md) {
@@ -19,7 +19,7 @@
   }
 }
 
-.usa-hero__heading {
+.app-hero__heading {
   font-weight: 600;
   font-size: 1.875rem;
   margin-bottom: 1.25rem;
