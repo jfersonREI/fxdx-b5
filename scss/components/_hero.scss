@@ -14,7 +14,7 @@
 }
 @media (min-width: 40em) {
   .usa-hero__callout {
-    max-width: 20rem;
+    max-width: 30rem;
   }
 }
 .usa-hero__heading {
@@ -55,4 +55,20 @@
   .usa-button {
     width: auto;
   }
+}
+
+//
+@keyframes coverZoom {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.24);
+  }
+}
+.cover-image {
+  transform-origin: 50% 80%;
+  animation: coverZoom linear 50s;
+  animation-iteration-count: infinite;
 }
