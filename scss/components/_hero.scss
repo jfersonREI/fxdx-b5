@@ -1,0 +1,57 @@
+.usa-hero {
+  line-height: 1.5;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
+  background-image: url(/assets/img/hero/hero.png);
+  background-position: center;
+  background-size: cover;
+  color: #fff;
+}
+
+.usa-hero__callout {
+  background-color: $primary-dark;
+  padding: 2rem;
+}
+@media (min-width: 40em) {
+  .usa-hero__callout {
+    max-width: 20rem;
+  }
+}
+.usa-hero__heading {
+  font-weight: 600;
+
+  &--alt {
+    color: #fff;
+    display: block;
+  }
+}
+
+.usa-button {
+  font-family: Source Sans Pro Web, Helvetica Neue, Helvetica, Roboto, Arial,
+    sans-serif;
+  font-size: 1.06rem;
+  line-height: 0.9;
+  color: #fff;
+  background-color: #005ea2;
+  appearance: none;
+  border: 0;
+  border-radius: 0.25rem;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin-right: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+
+  &:visited {
+    color: #fff;
+  }
+}
+
+@media (min-width: 30em) {
+  .usa-button {
+    width: auto;
+  }
+}
