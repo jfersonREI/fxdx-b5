@@ -10,6 +10,7 @@ $data-card-padding: 1.5rem;
   &__media {
     padding: 0;
     background-color: $base-lightest;
+    overflow: hidden;
   }
   &__thumb {
     width: 100%;

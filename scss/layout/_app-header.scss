@@ -27,6 +27,7 @@ $app-guide-transition-duration: 0.3s;
   }
   &--is-sticky {
     position: sticky;
+    z-index: 4;
   }
 }
 //topbar
