@@ -80,7 +80,7 @@ $data-card-padding-sm: 1rem;
     align-items: center;
     height: 100%;
     justify-content: center;
-    padding: 2rem;
+    padding: 3rem;
   }
   &__favorite {
     background-color: transparent;
@@ -109,6 +109,7 @@ $data-card-padding-sm: 1rem;
   flex-flow: column wrap;
   align-items: center;
   justify-content: center;
+  width: 100%;
   &__item {
     margin: 0.5rem 0;
     padding: 0;
