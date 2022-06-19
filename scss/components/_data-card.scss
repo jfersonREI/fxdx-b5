@@ -1,4 +1,5 @@
 $data-card-padding: 1.5rem;
+$data-card-padding-sm: 1rem;
 
 .data-card {
   padding: 0;
@@ -7,17 +8,30 @@ $data-card-padding: 1.5rem;
   border: $base-lighter 1px solid;
   overflow: hidden;
   position: relative;
+
   &__media {
     padding: 0;
     background-color: $base-lightest;
     overflow: hidden;
+    max-height: 10rem;
+    position: relative;
+    &::after {
+      background-color: rgba(0, 0, 0, 0.02);
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      content: "";
+    }
   }
   &__thumb {
     width: 100%;
     height: auto;
   }
   &__headline {
-    padding: $data-card-padding;
+    padding: $data-card-padding $data-card-padding $data-card-padding-sm
+      $data-card-padding;
   }
   &__title {
     display: block;
@@ -58,7 +72,7 @@ $data-card-padding: 1.5rem;
     z-index: 1;
     opacity: 0;
     visibility: hidden;
-    transition: all 0.2s ease-in-out;
+    transition: all 200ms ease-in-out;
   }
   &__actions {
     display: flex;
@@ -82,6 +96,8 @@ $data-card-padding: 1.5rem;
       opacity: 1;
       visibility: visible;
     }
+    box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.15);
+    transition: box-shadow 200ms ease-in-out;
   }
 }
 //
@@ -108,14 +124,14 @@ $data-card-padding: 1.5rem;
 }
 
 .data-card-fav-btn {
-  background-color: rgba(255, 255, 255, 0.35);
+  background-color: rgba(255, 255, 255, 0.75);
   padding: 0.5rem;
   border: none;
   border-radius: 100%;
   color: $base-darkest;
   &:hover {
-    background-color: rgba(255, 255, 255, 1);
-    color: $primary-dark;
+    background-color: $primary;
+    color: #fff;
   }
   svg,
   img {
