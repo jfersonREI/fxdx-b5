@@ -126,14 +126,16 @@ $data-card-padding-sm: 1rem;
 }
 
 .data-card-fav-btn {
-  background-color: rgba(255, 255, 255, 0.75);
+  background-color: rgba(255, 255, 255, 0.5);
   padding: 0.5rem;
   border: none;
   border-radius: 100%;
   color: $base-darkest;
+  box-shadow: 0 3px 4px -1px rgba(0, 0, 0, 0.15),
+    0 5px 10px 0 rgba(0, 0, 0, 0.1), 0 1px 12px 0 rgba(0, 0, 0, 0.1);
   &:hover {
-    background-color: $primary;
-    color: #fff;
+    background-color: rgba(255, 255, 255, 1);
+    color: $primary;
   }
   svg,
   img {
