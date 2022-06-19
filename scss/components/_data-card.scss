@@ -65,15 +65,15 @@ $data-card-padding: 1.5rem;
     padding: 2rem;
   }
   &__favorite {
-    background-color: red;
+    background-color: transparent;
     position: absolute;
     right: 0;
     top: 0;
-    padding: 10px;
+    padding: 0.75rem;
     z-index: 2;
   }
 }
-
+//
 .data-card-btn-list {
   list-style: none;
   margin: 0;
@@ -81,5 +81,20 @@ $data-card-padding: 1.5rem;
   &__item {
     margin: 0.5rem 0;
     padding: 0;
+  }
+}
+
+.data-card-fav-btn {
+  background-color: rgba(255, 255, 255, 0.5);
+  padding: 0.5rem;
+  border: none;
+  border-radius: 100%;
+  color: $base-darkest;
+  svg,
+  img {
+    width: 1.5rem;
+    height: 1.5rem;
+    display: block;
+    fill: currentColor;
   }
 }
