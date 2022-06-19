@@ -117,9 +117,10 @@ $data-card-padding-sm: 1rem;
     button {
       display: block;
       width: 100%;
-      &:focus {
-        background-color: red;
-      }
+      background: #005ea2;
+      color: #fff;
+      padding: 8px;
+      border: 0;
     }
   }
 }

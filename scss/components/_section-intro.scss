@@ -1,0 +1,16 @@
+.section-intro {
+  display: flex;
+  align-items: center;
+  @extend .mb-4;
+  &__title {
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: $primary;
+    @extend .me-4;
+  }
+  &__link {
+    background-color: transparent;
+    text-decoration: none;
+    font-weight: 500;
+  }
+}
