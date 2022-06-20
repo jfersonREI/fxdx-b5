@@ -98,6 +98,10 @@ $data-card-padding-sm: 1rem;
     }
     box-shadow: 0 12px 30px 0 rgba(0, 0, 0, 0.15);
     transition: box-shadow 200ms ease-in-out;
+    .data-card-fav-btn {
+      background-color: rgba(255, 255, 255, 1);
+      box-shadow: none;
+    }
   }
 }
 //

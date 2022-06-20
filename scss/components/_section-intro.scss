@@ -14,6 +14,10 @@
   &__link {
     background-color: transparent;
     text-decoration: none;
-    font-weight: 500;
+    font-size: 0.875rem;
+    font-weight: 700;
+    &:hover {
+      text-decoration: underline;
+    }
   }
 }
