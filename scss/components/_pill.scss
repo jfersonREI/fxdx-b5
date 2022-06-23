@@ -17,10 +17,22 @@
   }
   &--active {
     background-color: $base-darkest;
+    border-color: $base-darkest;
     color: #fff;
     &:hover {
       background-color: $base-darkest;
+      border-color: $base-darkest;
       color: #fff;
+    }
+  }
+  &--disabled {
+    background-color: $base-lightest;
+    border-color: $base-lightest;
+    color: $base-light;
+    &:hover {
+      background-color: $base-lightest;
+      border-color: $base-lightest;
+      color: $base-light;
     }
   }
 
