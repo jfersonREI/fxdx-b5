@@ -39,6 +39,12 @@
 
   &__label {
     background-color: transparent;
+    &--truncate {
+      max-width: 12rem;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
   }
   //optional
   &__leading-icon {
