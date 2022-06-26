@@ -6,12 +6,10 @@ let favToggle = () => {
     favBtn.classList.add("data-card-fav-btn--favorited");
     favBtn.setAttribute("aria-label", "Unfavorite");
     is_favorite = true;
-    console.log(is_favorite);
   } else {
     favBtn.classList.remove("data-card-fav-btn--favorited");
     favBtn.setAttribute("aria-label", "Favorite");
     is_favorite = false;
-    console.log(is_favorite);
   }
 };
 
