@@ -28,6 +28,7 @@ $enable-gradients: true;
 $enable-shadows: true;
 
 @import "helpers/colors";
+@import "helpers/backgrounds";
 @import "helpers/animations";
 // Customize some defaults
 $body-color: $base-darkest;
@@ -76,12 +77,12 @@ $container-max-widths: (
 // @import "bootstrap/scss/list-group";
 @import "bootstrap/scss/close";
 // @import "bootstrap/scss/toasts";
-@import "bootstrap/scss/modal"; // Requires transitions
+//@import "bootstrap/scss/modal"; // Requires transitions
 // @import "bootstrap/scss/tooltip";
 // @import "bootstrap/scss/popover";
 // @import "bootstrap/scss/carousel";
 // @import "bootstrap/scss/spinners";
-@import "bootstrap/scss/offcanvas"; // Requires transitions
+//@import "bootstrap/scss/offcanvas"; // Requires transitions
 // @import "bootstrap/scss/placeholders";
 
 // Helpers
@@ -116,7 +117,3 @@ $container-max-widths: (
 @import "components/section-intro";
 @import "components/pill";
 @import "components/pill-list";
-
-[_ngcontent-nqa-c354] {
-  background: yellow;
-}
