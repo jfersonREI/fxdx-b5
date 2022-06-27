@@ -1,5 +1,5 @@
 .hm-capabilitites {
-  background-color: $primary-light;
+  background-color: $primary-lighter;
   padding: 4rem 0;
   &__media {
     display: flex;
@@ -15,6 +15,8 @@
   &__title {
     font-size: 1.75rem;
     font-weight: 600;
+    color: $primary-darker;
+    letter-spacing: -0.015rem;
   }
   &__img {
     width: 100%;
@@ -31,7 +33,7 @@
   &__item {
     margin: 0;
     padding: 0;
-    border-bottom: red 1px solid;
+    border-top: $primary-light 1px solid;
   }
   &__hdr {
     margin: 0 0 0 0;
@@ -52,8 +54,9 @@
     }
   }
   &__link-txt {
-    font-weight: 600;
+    font-weight: 500;
     font-size: 1rem;
+    text-align: left;
   }
   &__link-icon {
     width: 1.5rem;
@@ -71,5 +74,9 @@
     padding: 1rem;
     font-size: 0.875rem;
     line-height: 1.4;
+    display: none;
+    p:last-of-type {
+      margin-bottom: 0;
+    }
   }
 }
