@@ -33,7 +33,7 @@
   &__item {
     margin: 0;
     padding: 0;
-    border-top: $primary-light 1px solid;
+    border-top: rgba($primary-light, 0.5) 1px solid;
   }
   &__hdr {
     margin: 0 0 0 0;
