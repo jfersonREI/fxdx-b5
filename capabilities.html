@@ -60,16 +60,25 @@
                 class="col-12 col-md-6 hm-capabilitites__img"
               />
             </div>
+
             <div class="col-12 col-md-6 hm-capabilitites__txt">
               <div class="hm-capabilitites__hdr">
                 <h1 class="hm-capabilitites__title">FEMADex Capabilities</h1>
               </div>
 
-              <ul class="hm-capabilitites-list">
+              <ul class="hm-capabilitites-list accordion" id="accordionExample">
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingOne"
                         >Raw and Analytical Data Storage</span
                       >
                       <span class="hm-capabilitites-list__link-icon">
@@ -88,7 +97,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseOne"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       Cloud storage is a cloud computing model that stores data
                       on the internet through a cloud computing provider who
@@ -100,8 +114,16 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingTwo"
                         >Machine-Learning Solutions</span
                       >
                       <span class="hm-capabilitites-list__link-icon">
@@ -120,7 +142,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                    id="collapseTwo"
+                  >
                     <p>
                       Machine learning is a method of data analysis that
                       automates analytical model building. It is a branch of
@@ -132,8 +159,17 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingThree"
                         >Geospatial Analysis and Mapping
                       </span>
                       <span class="hm-capabilitites-list__link-icon">
@@ -152,7 +188,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseThree"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       A Geographic Information System (GIS) is a computer system
                       that analyzes and displays geographically referenced
@@ -166,8 +207,16 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingFour"
                         >Data Visualization
                       </span>
                       <span class="hm-capabilitites-list__link-icon">
@@ -186,7 +235,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseFour"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       Data visualization is the graphical representation of
                       information and data. By using visual elements like
@@ -198,8 +252,16 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFive"
+                      aria-expanded="false"
+                      aria-controls="collapseFive"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingFive"
                         >Real-Time Messaging
                       </span>
                       <span class="hm-capabilitites-list__link-icon">
@@ -218,7 +280,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseFive"
+                    aria-labelledby="headingFive"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       Real-time messaging refers to the distribution and
                       delivery of messages that are designed to be consumed or
@@ -228,8 +295,16 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSix"
+                      aria-expanded="false"
+                      aria-controls="collapseSix"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingSix"
                         >Data Sharing
                       </span>
                       <span class="hm-capabilitites-list__link-icon">
@@ -248,7 +323,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseSix"
+                    aria-labelledby="headingSix"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       Data sharing is the ability to distribute the same sets of
                       data resources with multiple users or applications while
@@ -259,8 +339,16 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseSeven"
+                      aria-expanded="false"
+                      aria-controls="collapseSeven"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingSeven"
                         >Extraction, Transformation, and Loading
                       </span>
                       <span class="hm-capabilitites-list__link-icon">
@@ -279,7 +367,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseSeven"
+                    aria-labelledby="headingSeven"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       The process of ETL plays a key role in data integration
                       stategies. ETL allows businesses to gather data from
@@ -291,8 +384,16 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseEight"
+                      aria-expanded="false"
+                      aria-controls="collapseEight"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingEight"
                         >Data Streaming and Processing
                       </span>
                       <span class="hm-capabilitites-list__link-icon">
@@ -311,7 +412,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseEight"
+                    aria-labelledby="headingEight"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       Streaming data is data that is generated continuosly by
                       thousands of data sources, which typically send in the
@@ -321,8 +427,16 @@
                 </li>
                 <li class="hm-capabilitites-list__item">
                   <div class="hm-capabilitites-list__hdr">
-                    <button class="hm-capabilitites-list__link">
-                      <span class="hm-capabilitites-list__link-txt"
+                    <button
+                      class="hm-capabilitites-list__link collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseNine"
+                      aria-expanded="false"
+                      aria-controls="collapseNine"
+                    >
+                      <span
+                        class="hm-capabilitites-list__link-txt"
+                        id="headingNine"
                         >Advanced Analytics
                       </span>
                       <span class="hm-capabilitites-list__link-icon">
@@ -341,7 +455,12 @@
                       </span>
                     </button>
                   </div>
-                  <div class="hm-capabilitites-list__desc">
+                  <div
+                    class="hm-capabilitites-list__desc collapse"
+                    id="collapseNine"
+                    aria-labelledby="headingNine"
+                    data-bs-parent="#accordionExample"
+                  >
                     <p>
                       Advanced analytics is a data analysis methodology that
                       uses predictive modeling, machine learning algorithms,
