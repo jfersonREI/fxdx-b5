@@ -68,7 +68,8 @@
     width: 100%;
 
     &:hover {
-      background-color: #fff;
+      background-color: $primary;
+      color: #fff;
     }
   }
   &__link-txt {
