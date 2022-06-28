@@ -2,8 +2,12 @@
   background-color: $primary-lighter;
   padding: 4rem 0;
   &__media {
-    display: flex;
-    flex-flow: column wrap;
+    display: none;
+
+    @include media-breakpoint-up(sm) {
+      display: flex;
+      flex-flow: column wrap;
+    }
   }
   &__txt {
     display: flex;
