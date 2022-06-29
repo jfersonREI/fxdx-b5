@@ -10,6 +10,7 @@
   height: 2rem;
   color: $base-darkest;
   text-decoration: none;
+  cursor: pointer;
 
   &:hover {
     background-color: $base-lighter;
@@ -34,6 +35,18 @@
       background-color: $base-lightest;
       border-color: $base-lightest;
       color: $base-light;
+    }
+  }
+
+  &--link {
+    background-color: transparent;
+    border-color: transparent;
+    color: $primary;
+    &:hover {
+      background-color: transparent;
+      border-color: transparent;
+      color: $primary;
+      text-decoration: underline;
     }
   }
 
