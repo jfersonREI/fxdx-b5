@@ -31,6 +31,10 @@ $app-guide-transition-duration: 0.3s;
     z-index: 4;
   }
 }
+.app-header-wrap {
+  position: relative;
+  width: 100%;
+}
 //topbar
 .app-topbar {
   display: flex;
@@ -51,6 +55,7 @@ $app-guide-transition-duration: 0.3s;
     width: 11rem;
   }
 }
+
 //nav
 .app-nav-group {
   display: none;
