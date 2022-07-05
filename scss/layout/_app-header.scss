@@ -3,8 +3,9 @@
 //variables
 $app-header-transition-duration: 0.3s;
 $app-header-bg: #fff;
-$app-topbar-height-sm: 4rem;
-$app-topbar-height-lg: 5.5rem;
+$app-header-height-sm: 4rem;
+$app-header-height-lg: 5.5rem;
+$app-topbar-height: 3.25rem;
 $app-topbar-nav-color: $base-dark;
 $app-topbar-nav-color-hover: $primary;
 
@@ -21,9 +22,9 @@ $app-guide-transition-duration: 0.3s;
   top: 0;
   display: flex;
   align-items: center;
-  height: $app-topbar-height-sm;
+  height: $app-header-height-sm;
   @include media-breakpoint-up(lg) {
-    height: $app-topbar-height-lg;
+    height: $app-header-height-lg;
   }
   &--is-sticky {
     position: sticky;
@@ -33,9 +34,10 @@ $app-guide-transition-duration: 0.3s;
 //topbar
 .app-topbar {
   display: flex;
-  flex-direction: row nowrap;
+  flex-flow: row nowrap;
   justify-content: space-between;
   align-items: center;
+  height: $app-topbar-height;
 }
 //logo
 .app-logo {
