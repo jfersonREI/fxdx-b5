@@ -174,17 +174,16 @@
                     <li class="app-nav-list__item">
                       <button
                         class="app-nav-list__link"
-                        id="dropdownMenuButton1"
+                        id="dropdownDataProdMenu"
                         data-bs-toggle="dropdown"
                         data-bs-display="static"
-                        data-bs-offset="-2,0"
                         aria-expanded="false"
                       >
                         Data Products
                       </button>
                       <div
                         class="app-nav-submenu dropdown-menu animate fadeIn"
-                        aria-labelledby="dropdownMenuButton1"
+                        aria-labelledby="dropdownDataProdMenu"
                       >
                         <ul class="app-submenu-list">
                           <li class="app-submenu-list__item">
@@ -222,7 +221,11 @@
                       >
                     </li>
                     <li class="app-nav-list__item">
-                      <button class="app-nav-list__link">
+                      <button
+                        class="app-nav-list__link"
+                        id="dropdownSearchMenuButton"
+                        aria-expanded="false"
+                      >
                         <span class="app-nav-search"
                           ><span>Search</span>
                           <span class="app-nav-search__icon">
@@ -323,7 +326,10 @@
               <!-- /.app-mobile-logo -->
             </div>
             <!-- /.app-mobile-header -->
-            <div class="app-mobile-nav-list-group">
+            <div
+              class="app-mobile-nav-list-group dropdown-menu animate fadeIn"
+              aria-labelledby="dropdownSearchButton"
+            >
               <ul class="app-mobile-nav-list">
                 <li class="app-mobile-nav-list__item">
                   <div class="app-mobile-nav-search" id="appMobileNavSearch">
@@ -582,7 +588,10 @@
         </div>
         <!-- END MOBILE NAV -->
 
-        <div class="app-header-search">
+        <div
+          class="app-header-search"
+          aria-labelledby="dropdownMenuSearchButton"
+        >
           <div class="container">
             <div class="row">
               <div class="col">
