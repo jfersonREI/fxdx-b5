@@ -250,7 +250,7 @@ $app-guide-transition-duration: 0.3s;
     padding: 0.5rem;
     border: none;
     position: absolute;
-    top: 0.75rem;
+    top: calc(50% - 1.25rem);
     right: 0.75rem;
     > svg {
       fill: $base-darkest;
