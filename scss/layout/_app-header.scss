@@ -115,6 +115,18 @@ $app-guide-transition-duration: 0.3s;
         height: 0.25rem;
       }
     }
+
+    &--sublevel-1 {
+      justify-content: flex-start;
+      align-items: flex-start;
+      font-size: 0.9375rem;
+      &::before {
+        content: "\2014";
+        padding-right: 0.5rem;
+        font-weight: 300;
+      }
+    }
+
     &.show {
       background-color: $primary-darker;
       color: #fff;
