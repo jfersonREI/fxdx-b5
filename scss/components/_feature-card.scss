@@ -1,0 +1,74 @@
+.feature-card {
+  display: flex;
+  flex-flow: column wrap;
+  margin: 1.5rem 0;
+
+  @include media-breakpoint-up(md) {
+    margin: 0;
+  }
+  &__media {
+    background-color: red;
+    margin: 0 0 1.5rem 0;
+    max-height: 10.5rem;
+    overflow: hidden;
+  }
+  &__img {
+    width: 100%;
+    height: auto;
+  }
+  &__content {
+    display: flex;
+    flex-flow: column wrap;
+    margin: 0 0 1.25rem 0;
+  }
+  &__title {
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: $primary;
+    padding: 0;
+    margin: 0 0 0.5rem 0;
+    display: block;
+  }
+  &__desc {
+    padding: 0;
+    margin: 0;
+    display: block;
+    p {
+      &:last-of-type {
+        margin-bottom: 0;
+      }
+    }
+  }
+  &__actions {
+    background-color: transparent;
+  }
+  &__link {
+    display: inline-flex;
+    align-items: center;
+    text-decoration: none;
+    &:hover {
+      text-decoration: underline;
+    }
+    &--arrow {
+      &::after {
+        content: "";
+        display: block;
+        width: 1.5rem;
+        height: 1.5rem;
+        margin-left: 0.5rem;
+        //background-image: url(../../assets/img/icons/icon-arrow-forward.svg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-color: $primary;
+        -webkit-mask-image: url(../../assets/img/icons/icon-arrow-forward.svg);
+        mask-image: url(../../assets/img/icons/icon-arrow-forward.svg);
+      }
+      &:hover {
+        color: $primary;
+        &::after {
+          background-color: $primary;
+        }
+      }
+    }
+  }
+}
