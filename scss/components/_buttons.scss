@@ -1,0 +1,145 @@
+.btn-fdx {
+  display: inline-flex;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.5;
+  color: $base-darkest;
+  align-items: center;
+  text-decoration: none;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 1px solid transparent;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  &:hover {
+    color: $base-darkest;
+  }
+  &:disabled {
+    background-color: #c6c6c6;
+    color: #fff;
+    pointer-events: none;
+    //opacity: 0.65;
+  }
+  //large button
+  &--large {
+    font-size: 1.375rem;
+    padding: 1rem 1.5rem;
+  }
+
+  &--block {
+    width: 100%;
+  }
+
+  &--primary {
+    background-color: $primary;
+    color: #fff;
+    &:hover {
+      background-color: $primary-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $primary-darker;
+      color: #fff;
+    }
+  }
+  //secondary
+  &--secondary {
+    background-color: $secondary;
+    color: #fff;
+    &:hover {
+      background-color: $secondary-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $secondary-darker;
+      color: #fff;
+    }
+  }
+
+  //accent-cool
+  &--accent-cool {
+    background-color: $accent-cool;
+    color: $base-darkest;
+    &:hover {
+      background-color: $accent-cool-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $accent-cool-darker;
+      color: #fff;
+    }
+  }
+  //accent-warm
+  &--accent-warm {
+    background-color: $accent-warm;
+    color: #fff;
+    &:hover {
+      background-color: $accent-warm-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $accent-warm-darker;
+      color: #fff;
+    }
+  }
+
+  //base
+  &--base {
+    background-color: $base;
+    color: #fff;
+    &:hover {
+      background-color: $base-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $base-darker;
+      color: #fff;
+    }
+  }
+
+  //error
+  &--error {
+    background-color: $error;
+    color: #fff;
+    &:hover {
+      background-color: $error-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $error-darker;
+      color: #fff;
+    }
+  }
+  //success
+  &--success {
+    background-color: $success;
+    color: $base-darkest;
+    &:hover {
+      background-color: $success-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $success-darker;
+      color: #fff;
+    }
+  }
+
+  //inverse
+  &--inverse {
+    background-color: $base-lighter;
+    color: $base-darkest;
+    &:hover {
+      background-color: $base-lightest;
+      color: $base-darkest;
+    }
+    &:active {
+      background-color: #fff;
+      color: $base-darkest;
+    }
+  }
+}
