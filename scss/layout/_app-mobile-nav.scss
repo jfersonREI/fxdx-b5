@@ -111,6 +111,12 @@ body[noscroll] {
         transform: rotate(0deg);
       }
     }
+    &--login {
+      color: $primary;
+      &:hover {
+        color: $primary-dark;
+      }
+    }
   }
   &__icon-text {
     display: inline-flex;
@@ -156,6 +162,9 @@ body[noscroll] {
     overflow: hidden;
     text-overflow: ellipsis;
     margin-right: 0.5rem;
+  }
+  &__login {
+    text-transform: uppercase;
   }
 }
 //submenu
