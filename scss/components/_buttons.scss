@@ -5,6 +5,7 @@
   line-height: 1.5;
   color: $base-darkest;
   align-items: center;
+  text-align: center;
   text-decoration: none;
   justify-content: center;
   cursor: pointer;
@@ -15,6 +16,11 @@
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
     border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+
+  @include media-breakpoint-up(sm) {
+    width: auto;
+  }
 
   &:hover {
     color: $base-darkest;
@@ -29,10 +35,6 @@
   &--large {
     font-size: 1.375rem;
     padding: 1rem 1.5rem;
-  }
-  //block button
-  &--block {
-    width: 100%;
   }
 
   &--unstyled {

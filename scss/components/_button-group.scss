@@ -1,0 +1,27 @@
+.fdx-button-group {
+  list-style: none;
+  margin: 0 -0.25rem;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  flex-flow: column wrap;
+
+  @include media-breakpoint-up(sm) {
+    flex-flow: row wrap;
+    align-items: center;
+  }
+  &--justify-content-end {
+    justify-content: flex-end;
+  }
+  &--justify-content-between {
+    justify-content: space-between;
+  }
+  &__item {
+    margin: 0.25rem;
+    padding: 0;
+    width: 100%;
+    @include media-breakpoint-up(sm) {
+      width: auto;
+    }
+  }
+}
