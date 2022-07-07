@@ -256,7 +256,11 @@
               </div>
 
               <div class="app-nav-user">
-                <button class="app-nav-user__btn" type="button">
+                <button
+                  class="app-nav-user__btn"
+                  type="button"
+                  style="display: none"
+                >
                   <span class="app-nav-user__icon"
                     ><img
                       class="avatar avatar--profile avatar--circle"
@@ -265,6 +269,12 @@
                       width="32"
                       height="32" /></span
                   ><span class="app-nav-user__name">UFT Analyst3</span>
+                </button>
+                <button
+                  class="app-nav-user__btn app-nav-user__btn--login"
+                  type="button"
+                >
+                  <span class="app-nav-user__login">Login</span>
                 </button>
               </div>
             </div>
@@ -593,6 +603,7 @@
         <!-- END MOBILE NAV -->
 
         <div
+          style="display: none"
           class="app-header-search"
           aria-labelledby="dropdownMenuSearchButton"
         >
