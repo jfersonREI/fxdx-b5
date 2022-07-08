@@ -61,10 +61,6 @@
   color: $disabled;
 }
 
-.fdx-checkbox__input:disabled + [class*="__label"],
-.fdx-checkbox__input:disabled + [class*="__label"]::before {
-  cursor: not-allowed;
-}
 .fdx-checkbox__input:disabled + [class*="__label"]::before {
   background-color: #fff;
   box-shadow: 0 0 0 2px $disabled;
