@@ -71,5 +71,6 @@
 }
 
 .fdx-checkbox__input:focus + [class*="__label"]::before {
-  @include focus-outline;
+  //@include focus-outline;
+  @include focus-outline(null, null, null, 0.25rem);
 }
