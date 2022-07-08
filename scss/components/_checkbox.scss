@@ -69,12 +69,6 @@
   background-color: #fff;
   box-shadow: 0 0 0 2px $disabled;
 }
-button:not([disabled]):focus,
-input:not([disabled]):focus,
-select:not([disabled]):focus,
-textarea:not([disabled]):focus {
-  @include focus-outline;
-}
 
 .fdx-checkbox__input:focus + [class*="__label"]::before {
   @include focus-outline;
