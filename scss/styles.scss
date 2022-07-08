@@ -30,6 +30,7 @@ $enable-shadows: true;
 @import "helpers/colors";
 @import "helpers/backgrounds";
 @import "helpers/animations";
+@import "helpers/focus-outline";
 // Customize some defaults
 $body-color: $base-darkest;
 $body-bg: #fff;
@@ -113,6 +114,8 @@ $container-max-widths: (
 @import "components/avatar";
 @import "components/buttons";
 @import "components/button-group";
+@import "components/fieldset";
+@import "components/checkbox";
 @import "components/hero";
 @import "components/data-product-grid";
 @import "components/data-card";

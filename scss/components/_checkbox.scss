@@ -1,0 +1,81 @@
+.fdx-checkbox {
+  background-color: transparent;
+
+  &__input {
+    position: absolute;
+    left: -999em;
+    right: auto;
+  }
+  &__label {
+    cursor: pointer;
+    display: inherit;
+    font-weight: 400;
+    margin-top: 0.75rem;
+    padding-left: 2rem;
+    position: relative;
+
+    color: #1b1b1b;
+    &::before {
+      content: " ";
+      display: block;
+      left: 0;
+      margin-left: 2px;
+      margin-top: 0.064rem;
+      position: absolute;
+      height: 1.25rem;
+      width: 1.25rem;
+      border-radius: 2px;
+
+      background: #fff;
+      box-shadow: 0 0 0 2px $base;
+    }
+  }
+}
+
+//
+.fdx-checkbox__input:checked + [class*="__label"]::before,
+.fdx-checkbox__input:checked:disabled + [class*="__label"]::before {
+  background-position: center center;
+  background-size: 1.5rem auto;
+}
+.fdx-checkbox__input:checked + [class*="__label"]::before,
+.fdx-checkbox__input:checked:disabled + [class*="__label"]::before {
+  background-image: url(../img/icons/icon-checkbox-check.svg),
+    linear-gradient(transparent, transparent);
+  background-repeat: no-repeat;
+}
+.fdx-checkbox__input:checked + [class*="__label"]::before {
+  background-color: $primary;
+  box-shadow: 0 0 0 2px $primary;
+}
+
+.fdx-checkbox__input:checked:disabled + [class*="__label"]::before {
+  background-color: $disabled;
+}
+
+.fdx-checkbox__input:disabled + [class*="__label"],
+.fdx-checkbox__input:disabled + [class*="__label"]::before {
+  cursor: not-allowed;
+}
+.fdx-checkbox__input:disabled + [class*="__label"] {
+  color: $disabled;
+}
+
+.fdx-checkbox__input:disabled + [class*="__label"],
+.fdx-checkbox__input:disabled + [class*="__label"]::before {
+  cursor: not-allowed;
+}
+.fdx-checkbox__input:disabled + [class*="__label"]::before {
+  background-color: #fff;
+  box-shadow: 0 0 0 2px $disabled;
+}
+button:not([disabled]):focus,
+input:not([disabled]):focus,
+select:not([disabled]):focus,
+textarea:not([disabled]):focus {
+  @include focus-outline;
+}
+
+.fdx-checkbox__input:focus + [class*="__label"]::before {
+  @include focus-outline;
+}
