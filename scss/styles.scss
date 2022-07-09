@@ -28,6 +28,7 @@ $enable-gradients: true;
 $enable-shadows: true;
 
 @import "helpers/colors";
+@import "helpers/fonts";
 @import "helpers/backgrounds";
 @import "helpers/animations";
 @import "helpers/focus-outline";
@@ -38,9 +39,9 @@ $enable-shadows: true;
 $body-color: $base-darkest;
 $body-bg: #fff;
 $border-radius: 0.4rem;
-$font-family-base: "Public Sans", -apple-system, BlinkMacSystemFont, Segoe UI,
-  Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji, Segoe UI Emoji,
-  Segoe UI Symbol;
+$font-family-base: "Public Sans Web", -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji,
+  Segoe UI Emoji, Segoe UI Symbol;
 
 $container-max-widths: (
   sm: 100%,
