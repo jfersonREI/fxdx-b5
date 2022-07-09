@@ -51,9 +51,19 @@ $warning-darker: #936f38;
 $warning-light: #fee685;
 $warning-lighter: #faf3d1;
 $warning: #ffbe2e;
+$violet-70v: #54278f;
 
 //focus
 $theme-focus-width: 0.25rem;
 $theme-focus-style: solid;
 $theme-focus-color: #2491ff;
 $theme-focus-offset: 0;
+
+// Links
+$theme-link-color: $primary;
+$theme-link-visited-color: $violet-70v;
+$theme-link-hover-color: $primary-dark;
+$theme-link-active-color: $primary-darker;
+$theme-link-reverse-color: $base-lighter;
+$theme-link-reverse-hover-color: $base-lightest;
+$theme-link-reverse-active-color: white;
