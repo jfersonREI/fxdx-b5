@@ -54,6 +54,9 @@ $app-guide-transition-duration: 0.3s;
   @include media-breakpoint-up(lg) {
     width: 11rem;
   }
+  a:focus {
+    outline-offset: 0.25rem;
+  }
 }
 
 //nav
@@ -233,8 +236,8 @@ $app-guide-transition-duration: 0.3s;
     margin: 0 -0.5rem 0 0;
     padding: 0.5rem;
     max-width: 11rem;
-    border-radius: 0.25rem;
-    transition: all 0.15s ease-in-out;
+    border-radius: 0;
+    //transition: all 0.15s ease-in-out;
 
     &:hover {
       background-color: transparent;
