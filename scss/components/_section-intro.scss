@@ -11,6 +11,9 @@
     color: $primary;
     @extend .me-4;
   }
+  a {
+    @include typeset-link;
+  }
   &__link {
     background-color: transparent;
     text-decoration: none;
