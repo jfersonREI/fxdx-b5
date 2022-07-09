@@ -22,6 +22,14 @@
     width: auto;
   }
 
+  &--focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0;
+  }
+  &:not([disabled]).btn-fdx--focus,
+  &:not([disabled]):focus {
+    outline-offset: 0.25rem;
+  }
   &:hover {
     color: $base-darkest;
   }
@@ -29,7 +37,6 @@
     background-color: $disabled;
     color: #fff;
     pointer-events: none;
-    //opacity: 0.65;
   }
   //large button
   &--large {

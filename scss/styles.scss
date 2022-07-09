@@ -31,6 +31,8 @@ $enable-shadows: true;
 @import "helpers/backgrounds";
 @import "helpers/animations";
 @import "helpers/focus-outline";
+@import "helpers/focus";
+
 // Customize some defaults
 $body-color: $base-darkest;
 $body-bg: #fff;
@@ -94,13 +96,6 @@ $container-max-widths: (
 //
 // Custom styles
 //
-
-@import "icon-list";
-
-// Style Bootstrap icons
-.bi {
-  fill: currentColor;
-}
 
 @import "layout/app-skipnav";
 @import "layout/app-banner";

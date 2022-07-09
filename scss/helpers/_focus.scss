@@ -1,0 +1,19 @@
+input,
+select,
+textarea,
+button {
+  &:not([disabled]) {
+    &:focus {
+      @include focus-outline;
+    }
+  }
+}
+
+iframe,
+[href],
+[tabindex],
+[contentEditable="true"] {
+  &:focus {
+    @include focus-outline;
+  }
+}
