@@ -103,6 +103,9 @@ $data-card-padding-sm: 1rem;
       box-shadow: none;
     }
   }
+  &:focus {
+    outline: 0;
+  }
 }
 //
 .data-card-btn-list {

@@ -275,6 +275,9 @@ body[noscroll] {
       height: auto;
     }
   }
+  a:focus {
+    outline-offset: 0.25rem;
+  }
 }
 
 //close btn
