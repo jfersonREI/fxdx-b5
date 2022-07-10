@@ -67,3 +67,10 @@ $theme-link-active-color: $primary-darker;
 $theme-link-reverse-color: $base-lighter;
 $theme-link-reverse-hover-color: $base-lightest;
 $theme-link-reverse-active-color: white;
+
+//modals
+$modal-content-bg: #fff;
+$modal-content-border-width: 1px;
+$modal-content-border-color: $base-lighter;
+
+$modal-backdrop-bg: rgba(0, 0, 0, 0.7);
