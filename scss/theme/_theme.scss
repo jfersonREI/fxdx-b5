@@ -1,0 +1,41 @@
+// Toggle global options
+$enable-gradients: true;
+$enable-shadows: true;
+
+// Customize some defaults
+$body-color: $base-darkest;
+$body-bg: #fff;
+$border-radius: 0.4rem;
+$font-family-base: "Public Sans Web", -apple-system, BlinkMacSystemFont,
+  Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji,
+  Segoe UI Emoji, Segoe UI Symbol;
+
+$container-max-widths: (
+  sm: 100%,
+  md: 100%,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1320px,
+);
+
+//focus
+$theme-focus-width: 0.25rem;
+$theme-focus-style: solid;
+$theme-focus-color: #2491ff;
+$theme-focus-offset: 0;
+
+// Links
+$theme-link-color: $primary;
+$theme-link-visited-color: $violet-70v;
+$theme-link-hover-color: $primary-dark;
+$theme-link-active-color: $primary-darker;
+$theme-link-reverse-color: $base-lighter;
+$theme-link-reverse-hover-color: $base-lightest;
+$theme-link-reverse-active-color: white;
+
+//modals
+$modal-content-bg: #fff;
+$modal-content-border-width: 1px;
+$modal-content-border-color: $base-lighter;
+
+$modal-backdrop-bg: rgba(0, 0, 0, 0.7);

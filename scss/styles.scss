@@ -1,55 +1,19 @@
 // Override Bootstrap's Sass default variables
-//
-// Nearly all variables in Bootstrap are written with the `!default` flag.
-// This allows you to override the default values of those variables before
-// you import Bootstrap's source Sass files.
-//
-// Overriding the default variable values is the best way to customize your
-// CSS without writing _new_ styles. For example, change you can either change
-// `$body-color` or write more CSS that override's Bootstrap's CSS like so:
-// `body { color: red; }`.
-
-//
-// Bring in Bootstrap
-//
-
-// Option 1
-//
-// Import all of Bootstrap's CSS
-
-// @import "bootstrap/scss/bootstrap";
-
 // Option 2
 //
 // Place variable overrides first, then import just the styles you need. Note that some stylesheets are required no matter what.
-
-// Toggle global options
-$enable-gradients: true;
-$enable-shadows: true;
-@import "mixins/focus-outline";
-@import "mixins/typeset-link";
 
 @import "helpers/colors";
 @import "helpers/fonts";
 @import "helpers/backgrounds";
 @import "helpers/animations";
+
+//Theme
+@import "theme/theme";
+
+@import "mixins/focus-outline";
 @import "helpers/focus";
-
-// Customize some defaults
-$body-color: $base-darkest;
-$body-bg: #fff;
-$border-radius: 0.4rem;
-$font-family-base: "Public Sans Web", -apple-system, BlinkMacSystemFont,
-  Segoe UI, Roboto, Helvetica, Arial, sans-serif, Apple Color Emoji,
-  Segoe UI Emoji, Segoe UI Symbol;
-
-$container-max-widths: (
-  sm: 100%,
-  md: 100%,
-  lg: 960px,
-  xl: 1140px,
-  xxl: 1320px,
-);
+@import "mixins/typeset-link";
 
 // Required
 @import "bootstrap/scss/functions";
@@ -65,7 +29,7 @@ $container-max-widths: (
 @import "bootstrap/scss/grid";
 // @import "bootstrap/scss/tables";
 // @import "bootstrap/scss/forms";
-@import "bootstrap/scss/buttons";
+//@import "bootstrap/scss/buttons";
 @import "bootstrap/scss/transitions";
 @import "bootstrap/scss/dropdown";
 // @import "bootstrap/scss/button-group";
@@ -95,10 +59,7 @@ $container-max-widths: (
 // Utilities
 @import "bootstrap/scss/utilities/api";
 
-//
 // Custom styles
-//
-
 @import "layout/app-skipnav";
 @import "layout/app-banner";
 @import "layout/app-row";
