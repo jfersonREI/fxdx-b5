@@ -26,14 +26,14 @@
 // Toggle global options
 $enable-gradients: true;
 $enable-shadows: true;
+@import "mixins/focus-outline";
+@import "mixins/typeset-link";
 
 @import "helpers/colors";
 @import "helpers/fonts";
 @import "helpers/backgrounds";
 @import "helpers/animations";
-@import "helpers/focus-outline";
 @import "helpers/focus";
-@import "helpers/typeset-link";
 
 // Customize some defaults
 $body-color: $base-darkest;
