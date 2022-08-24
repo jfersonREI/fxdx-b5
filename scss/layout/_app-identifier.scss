@@ -70,9 +70,9 @@
   font-weight: 700;
 
   a {
-    color: #e6e6e6;
+    color: $disabled-light;
     &:hover {
-      color: #f0f0f0;
+      color: $base-lightest;
     }
   }
 }
@@ -119,20 +119,20 @@
 
 .app-identifier__required-link,
 .app-identifier__required-link.app-link {
-  color: #adadad;
+  color: $disabled-dark;
   display: inline-block;
   &:hover {
-    color: #e6e6e6;
+    color: $disabled-light;
   }
 }
 
 .app-identifier__section--usagov a {
-  color: #e6e6e6;
+  color: $disabled-light;
   font-weight: 700;
   display: inline-block;
   margin-top: 0.5rem;
   &:hover {
-    color: #f0f0f0;
+    color: $base-lightest;
   }
 
   @media (min-width: 40em) {
