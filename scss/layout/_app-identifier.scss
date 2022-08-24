@@ -1,0 +1,147 @@
+//
+// General Styles
+// =====================================
+.app-identifier {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: #fff;
+  background-color: $base-darkest;
+  padding-bottom: 1rem;
+}
+
+.app-identifier__container {
+  @extend .container;
+}
+
+.app-identifier__section {
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+
+.app-identifier__section--masthead {
+  .app-identifier__container {
+    @media (min-width: 40em) {
+      align-items: center;
+      display: flex;
+    }
+  }
+}
+/**/
+.app-identifier__logos {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.app-identifier__logo {
+  text-decoration: none;
+  height: 3rem;
+  display: block;
+
+  & + .app-identifier__logo {
+    margin-left: 0.5rem;
+  }
+}
+
+.app-identifier__logo-img {
+  height: 100%;
+  width: auto;
+}
+
+.app-identifier__identity {
+  flex: 1 1 0%;
+  margin-top: 1rem;
+
+  @media (min-width: 40em) {
+    margin-top: 0;
+  }
+}
+
+.app-identifier__identity-domain,
+.app-identifier__identity-disclaimer {
+  margin: 0;
+  padding: 0;
+}
+
+.app-identifier__identity-domain {
+  color: $disabled-dark;
+}
+
+.app-identifier__identity-disclaimer {
+  font-weight: 700;
+
+  a {
+    color: #e6e6e6;
+    &:hover {
+      color: #f0f0f0;
+    }
+  }
+}
+
+.app-identifier__section--required-links {
+  @media (min-width: 40em) {
+    padding-bottom: 0.5rem;
+    padding-top: 0.5rem;
+  }
+  @media (min-width: 64em) {
+    font-size: 0.94rem;
+  }
+}
+
+.app-identifier__required-links-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  @media (min-width: 40em) {
+    column-count: 2;
+    column-gap: 2rem;
+    column-fill: balance;
+  }
+
+  @media (min-width: 64em) {
+    column-count: 4;
+  }
+}
+
+.app-identifier__required-links-item {
+  break-inside: avoid;
+  margin-bottom: 0.75rem;
+
+  &:last-child {
+    margin-bottom: 0rem;
+  }
+
+  @media (min-width: 64em) {
+    margin-bottom: 0.5rem;
+  }
+}
+
+.app-identifier__required-link,
+.app-identifier__required-link.app-link {
+  color: #adadad;
+  display: inline-block;
+  &:hover {
+    color: #e6e6e6;
+  }
+}
+
+.app-identifier__section--usagov a {
+  color: #e6e6e6;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 0.5rem;
+  &:hover {
+    color: #f0f0f0;
+  }
+
+  @media (min-width: 40em) {
+    margin-top: 0;
+  }
+}
+
+.app-identifier__usagov-description {
+  @media (min-width: 40em) {
+    display: inline-flex;
+  }
+}
