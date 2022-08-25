@@ -1,0 +1,42 @@
+.login-banner {
+  background-color: $primary-darker;
+  color: #fff;
+  &__logos {
+    padding: 1rem 0;
+    @include media-breakpoint-up(md) {
+      padding: 2rem 0;
+    }
+  }
+}
+.login-banner-logo-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+
+  &__item {
+    margin: 0 0.5rem;
+    @include media-breakpoint-up(sm) {
+      margin: 0 1rem;
+    }
+
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
+      border-right: none;
+    }
+    svg {
+      width: 100%;
+      height: auto;
+      max-width: 8rem;
+      @include media-breakpoint-up(sm) {
+        max-width: 10rem;
+      }
+    }
+  }
+}
