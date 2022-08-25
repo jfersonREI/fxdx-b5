@@ -20,7 +20,7 @@
 
 .app-identifier__section--masthead {
   .app-identifier__container {
-    @media (min-width: 40em) {
+    @include media-breakpoint-up(sm) {
       align-items: center;
       display: flex;
     }
@@ -51,7 +51,7 @@
   flex: 1 1 0%;
   margin-top: 1rem;
 
-  @media (min-width: 40em) {
+  @include media-breakpoint-up(sm) {
     margin-top: 0;
   }
 }
@@ -78,11 +78,11 @@
 }
 
 .app-identifier__section--required-links {
-  @media (min-width: 40em) {
+  @include media-breakpoint-up(sm) {
     padding-bottom: 0.5rem;
     padding-top: 0.5rem;
   }
-  @media (min-width: 64em) {
+  @include media-breakpoint-up(md) {
     font-size: 0.94rem;
   }
 }
@@ -93,13 +93,13 @@
   margin-bottom: 0;
   margin-top: 0;
 
-  @media (min-width: 40em) {
+  @include media-breakpoint-up(sm) {
     column-count: 2;
     column-gap: 2rem;
     column-fill: balance;
   }
 
-  @media (min-width: 64em) {
+  @include media-breakpoint-up(md) {
     column-count: 4;
   }
 }
@@ -112,7 +112,7 @@
     margin-bottom: 0rem;
   }
 
-  @media (min-width: 64em) {
+  @include media-breakpoint-up(md) {
     margin-bottom: 0.5rem;
   }
 }
@@ -135,13 +135,13 @@
     color: $base-lightest;
   }
 
-  @media (min-width: 40em) {
+  @include media-breakpoint-up(sm) {
     margin-top: 0;
   }
 }
 
 .app-identifier__usagov-description {
-  @media (min-width: 40em) {
+  @include media-breakpoint-up(sm) {
     display: inline-flex;
   }
 }
