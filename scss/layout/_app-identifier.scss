@@ -40,6 +40,10 @@
   & + .app-identifier__logo {
     margin-left: 0.5rem;
   }
+  svg {
+    height: 100%;
+    width: auto;
+  }
 }
 
 .app-identifier__logo-img {
