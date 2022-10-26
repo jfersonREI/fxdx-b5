@@ -46,6 +46,9 @@ footer {
   @include media-breakpoint-down(md) {
     margin-bottom: 1rem;
   }
+  > a {
+    display: inline-flex;
+  }
 }
 .app-footer__logo-img {
   max-height: 5.5rem;
