@@ -7,10 +7,7 @@
   flex-flow: column nowrap;
   border: $base-lighter 1px solid;
   border-radius: 0.125rem;
-  &__hdr {
-    background-color: plum;
-    margin-bottom: 1rem;
-  }
+
   &__media {
     //background-color: chartreuse;
     margin-bottom: 1rem;
@@ -25,7 +22,7 @@
     text-align: center;
   }
   &__actions {
-    background-color: darkkhaki;
+    background-color: transparent;
   }
 
   &__title {
@@ -41,18 +38,37 @@
 }
 
 //role list
-.member-role-list {
+.member-card-role-list {
   list-style: none;
   margin: 0;
   padding: 0;
   display: inline-flex;
-  background-color: pink;
+
   &__item {
     &::after {
       content: ",\00a0";
     }
     &:last-of-type::after {
       content: "";
+    }
+  }
+}
+
+//btn list
+.member-card-btn-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+
+  &__item {
+    background-color: yellow;
+    margin: 0 0.25rem;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
     }
   }
 }
