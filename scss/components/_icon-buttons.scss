@@ -99,6 +99,58 @@
       color: #fff;
     }
   }
+  //accent-cool
+  &--accent-cool {
+    background-color: $accent-cool;
+    color: $base-darkest;
+    &:hover {
+      background-color: $accent-cool-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $accent-cool-darker;
+      color: #fff;
+    }
+  }
+  //accent-warm
+  &--accent-warm {
+    background-color: $accent-warm;
+    color: #fff;
+    &:hover {
+      background-color: $accent-warm-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $accent-warm-darker;
+      color: #fff;
+    }
+  }
+  //base
+  &--base {
+    background-color: $base;
+    color: #fff;
+    &:hover {
+      background-color: $base-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $base-darker;
+      color: #fff;
+    }
+  }
+  //error
+  &--error {
+    background-color: $error;
+    color: #fff;
+    &:hover {
+      background-color: $error-dark;
+      color: #fff;
+    }
+    &:active {
+      background-color: $error-darker;
+      color: #fff;
+    }
+  }
   //success
   &--success {
     background-color: $success;
@@ -113,40 +165,25 @@
     }
   }
 
-  //info
-  &--info {
-    background-color: $info;
-    color: #fff;
+  //inverse
+  &--inverse {
+    background-color: $base-lighter;
+    color: $base-darkest;
     &:hover {
-      background-color: $info-dark;
-      color: #fff;
+      background-color: $base-lightest;
+      color: $base-darkest;
     }
     &:active {
-      background-color: $info-darker;
-      color: #fff;
+      background-color: #fff;
+      color: $base-darkest;
     }
   }
 
-  //warning
-  &--warning {
-    background-color: $warning;
-    color: uspto(gray, 900);
-    &:hover {
-      background-color: $warning-dark;
-      color: #fff;
-    }
-    &:active {
-      background-color: $warning-darker;
-      color: #fff;
-    }
-  }
-
-  //outline btns
-  //outline-primary
-  &--outline-primary {
+  //outline
+  &--outline {
     background-color: transparent;
-    box-shadow: inset 0 0 0 2px blue;
-    color: blue;
+    box-shadow: inset 0 0 0 2px $primary;
+    color: $primary;
     &:disabled {
       background-color: transparent;
       box-shadow: inset 0 0 0 2px $disabled;
@@ -154,98 +191,13 @@
     }
     &:hover {
       background-color: transparent;
-      box-shadow: inset 0 0 0 2px orange;
-      color: orange;
+      box-shadow: inset 0 0 0 2px $primary-dark;
+      color: $primary-dark;
     }
     &:active {
       background-color: transparent;
-      box-shadow: inset 0 0 0 2px green;
-      color: green;
-    }
-  }
-  //outline-secondary
-  &--outline-secondary {
-    background-color: transparent;
-    box-shadow: inset 0 0 0 2px $secondary;
-    color: $secondary;
-    &:disabled {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $disabled;
-      color: $disabled;
-    }
-    &:hover {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $secondary-dark;
-      color: $secondary-dark;
-    }
-    &:active {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $secondary-darker;
-      color: $secondary-darker;
-    }
-  }
-  //outline-success
-  &--outline-success {
-    background-color: transparent;
-    box-shadow: inset 0 0 0 2px $success;
-    color: $success;
-    &:disabled {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $disabled;
-      color: $disabled;
-    }
-    &:hover {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $success-dark;
-      color: $success-dark;
-    }
-    &:active {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $success-darker;
-      color: $success-darker;
-    }
-  }
-
-  //outline-info
-  &--outline-info {
-    background-color: transparent;
-    box-shadow: inset 0 0 0 2px $info;
-    color: $info;
-    &:disabled {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $disabled;
-      color: $disabled;
-    }
-    &:hover {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $info-dark;
-      color: $info-dark;
-    }
-    &:active {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $info-darker;
-      color: $info-darker;
-    }
-  }
-  //outline-warning
-  &--outline-warning {
-    background-color: transparent;
-    box-shadow: inset 0 0 0 2px $warning;
-    color: $warning;
-    &:disabled {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $disabled;
-      color: $disabled;
-    }
-    &:hover {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $warning-dark;
-      color: $warning-dark;
-    }
-    &:active {
-      background-color: transparent;
-      box-shadow: inset 0 0 0 2px $warning-darker;
-      color: $warning-darker;
+      box-shadow: inset 0 0 0 2px $primary-darker;
+      color: $primary-darker;
     }
   }
 }

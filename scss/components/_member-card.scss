@@ -60,9 +60,10 @@
   margin: 0;
   padding: 0;
   display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
 
   &__item {
-    background-color: yellow;
     margin: 0 0.25rem;
     &:first-of-type {
       margin-left: 0;
