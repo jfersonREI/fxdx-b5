@@ -23,6 +23,7 @@
   }
   &__actions {
     background-color: transparent;
+    margin-top: 1rem;
   }
 
   &__title {
@@ -34,6 +35,13 @@
   &__subhd {
     color: $base;
     font-size: 0.875rem;
+  }
+  &__status {
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
   }
 }
 

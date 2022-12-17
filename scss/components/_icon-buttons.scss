@@ -182,9 +182,9 @@
   //flat
   &--flat {
     background-color: transparent;
-    color: $base;
+    color: $base-light;
     &:hover {
-      background-color: $base-lightest;
+      background-color: transparent;
       color: $base-darker;
     }
     &:active {
