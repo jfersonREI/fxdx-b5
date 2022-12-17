@@ -7,7 +7,41 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  color: red;
+
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1.5;
+  color: $base-darkest;
+
+  text-align: center;
+  text-decoration: none;
+
+  cursor: pointer;
+  user-select: none;
+  background-color: transparent;
+  border: 0;
+
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out,
+    border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  width: 100%;
+
+  &--focus {
+    outline: 0.25rem solid #2491ff;
+    outline-offset: 0;
+  }
+  &:not([disabled]).fdx-btn--focus,
+  &:not([disabled]):focus {
+    outline-offset: 0.25rem;
+  }
+  &:hover {
+    color: $base-darkest;
+  }
+  &:disabled {
+    background-color: $disabled;
+    color: #fff;
+    pointer-events: none;
+  }
+  //
   svg,
   img {
     display: block;
@@ -17,11 +51,11 @@
   }
   &:hover {
     background-color: transparent;
-    color: blue;
+    color: currentColor;
   }
   &:active {
     background-color: transparent;
-    color: green;
+    color: currentColor;
   }
   &:disabled {
     background-color: $disabled;
@@ -41,14 +75,14 @@
 
   //primary
   &--primary {
-    background-color: blue;
+    background-color: $primary;
     color: #fff;
     &:hover {
-      background-color: orange;
+      background-color: $primary-dark;
       color: #fff;
     }
     &:active {
-      background-color: green;
+      background-color: $primary-darker;
       color: #fff;
     }
   }
