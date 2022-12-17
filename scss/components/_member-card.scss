@@ -21,10 +21,6 @@
     flex-flow: column nowrap;
     text-align: center;
   }
-  &__actions {
-    background-color: transparent;
-    margin-top: 1rem;
-  }
 
   &__title {
     font-size: 1rem;
@@ -35,13 +31,19 @@
   &__subhd {
     color: $base;
     font-size: 0.875rem;
+    margin-bottom: 0.5rem;
   }
   &__status {
-    margin-bottom: 0.5rem;
+    margin-top: 0.25rem;
+    margin-bottom: 0rem;
     display: flex;
     flex-flow: column wrap;
     align-items: center;
     justify-content: center;
+  }
+  &__actions {
+    background-color: transparent;
+    margin-top: 1rem;
   }
 }
 
