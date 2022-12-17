@@ -7,9 +7,10 @@
   align-items: center;
   justify-content: center;
   background-color: $base-lightest;
+  color: $base-darkest;
   border-radius: 10px;
   flex-shrink: 0;
-  font-weight: 700;
+  font-weight: 600;
   text-transform: uppercase;
 
   &--circle {
@@ -40,5 +41,26 @@
     width: 5rem;
     height: 5rem;
     font-size: 2rem;
+  }
+  //roles
+  &--viewer {
+    background-color: $base-lightest;
+  }
+  &--analyst {
+    background-color: $base-lighter;
+  }
+  &--data-steward {
+    background-color: $info-light;
+  }
+  &--data-engineer {
+    background-color: $warning-light;
+  }
+  &--data-scientist {
+    background-color: $secondary;
+    color: #fff;
+  }
+  &--team-lead {
+    background-color: $primary;
+    color: #fff;
   }
 }
