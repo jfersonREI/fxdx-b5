@@ -1,0 +1,41 @@
+.member-card {
+  background-color: #fff;
+  padding: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column nowrap;
+  border: $base-lighter 1px solid;
+  border-radius: 0.125rem;
+  &__hdr {
+    background-color: plum;
+    margin-bottom: 1rem;
+  }
+  &__media {
+    //background-color: chartreuse;
+    margin-bottom: 1rem;
+  }
+
+  &__headline {
+    //background-color: cornflowerblue;
+    margin-bottom: 1rem;
+    display: flex;
+    align-items: center;
+    flex-flow: column nowrap;
+    text-align: center;
+  }
+  &__actions {
+    background-color: darkkhaki;
+  }
+
+  &__title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: $base-darkest;
+    margin-bottom: 0.5rem;
+  }
+  &__subhd {
+    color: $base;
+    font-size: 0.875rem;
+  }
+}
