@@ -39,3 +39,20 @@
     font-size: 0.875rem;
   }
 }
+
+//role list
+.member-role-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  background-color: pink;
+  &__item {
+    &::after {
+      content: ",\00a0";
+    }
+    &:last-of-type::after {
+      content: "";
+    }
+  }
+}
