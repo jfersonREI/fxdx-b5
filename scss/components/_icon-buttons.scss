@@ -179,6 +179,20 @@
     }
   }
 
+  //flat
+  &--flat {
+    background-color: transparent;
+    color: $base;
+    &:hover {
+      background-color: $base-lightest;
+      color: $base-darker;
+    }
+    &:active {
+      background-color: transparent;
+      color: $base-darkest;
+    }
+  }
+
   //outline
   &--outline {
     background-color: transparent;
