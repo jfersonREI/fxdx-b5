@@ -87,3 +87,32 @@
     }
   }
 }
+
+.member-card-grid.member-card-grid--grid-view {
+  @include media-breakpoint-up(md) {
+    .member-card {
+      padding: 2rem;
+      align-items: center;
+      justify-content: center;
+      flex-flow: row nowrap;
+      border: $base-lighter 1px solid;
+      border-radius: 0.125rem;
+      &__headline {
+        align-items: flex-start;
+        flex: 1;
+        text-align: left;
+        margin-bottom: 0;
+      }
+      &__media {
+        margin-right: 1rem;
+        margin-bottom: 0;
+      }
+      &__subhd {
+        margin-bottom: 0;
+      }
+      &__status {
+        margin-top: 0.5rem;
+      }
+    }
+  }
+}
