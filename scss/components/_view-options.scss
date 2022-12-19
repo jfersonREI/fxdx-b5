@@ -1,0 +1,21 @@
+.view-options {
+  background-color: transparent;
+}
+.view-options-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  &__item {
+    padding: 0;
+    margin: 0 0;
+    &:first-of-type {
+      margin-left: 0;
+    }
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
