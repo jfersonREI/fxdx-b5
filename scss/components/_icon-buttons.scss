@@ -193,6 +193,19 @@
       color: $base-darkest;
     }
   }
+  //selected
+  &--selected {
+    background-color: transparent;
+    color: $primary;
+    &:hover {
+      background-color: transparent;
+      color: $primary;
+    }
+    &:active {
+      background-color: transparent;
+      color: $primary;
+    }
+  }
 
   //outline
   &--outline {
