@@ -1,7 +1,20 @@
 .card-filter-bar {
-  background-color: beige;
   margin-bottom: 2rem;
   &__content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  &__left {
+    //background-color: darkkhaki;
+    flex: 1;
+  }
+  &__right {
+    background-color: salmon;
+    display: flex;
+  }
+  &__sort-options {
+    background-color: aqua;
     display: flex;
   }
 }
