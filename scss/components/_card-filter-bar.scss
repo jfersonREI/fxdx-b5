@@ -14,16 +14,16 @@
   }
   &__right {
     display: flex;
-    div {
-      display: flex;
-      align-items: center;
-    }
+
     &:last-of-type {
       margin-left: 0;
     }
   }
   &__view-options {
-    display: flex;
+    display: none;
     margin-left: 1rem;
+    @include media-breakpoint-up(md) {
+      display: flex;
+    }
   }
 }
