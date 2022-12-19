@@ -11,6 +11,7 @@ let listViewSwitch = () => {
     gridViewBtn.classList.remove("fdx-icon-btn--selected");
     memberCardGrid.classList.add("member-card-grid--list-view");
     is_listView = true;
+    is_gridView = false;
   }
 };
 
@@ -21,6 +22,7 @@ let gridViewSwitch = () => {
     gridViewBtn.classList.add("fdx-icon-btn--selected");
     listViewBtn.classList.remove("fdx-icon-btn--selected");
     memberCardGrid.classList.remove("member-card-grid--list-view");
+    is_listView = false;
     is_gridView = true;
   }
 };
