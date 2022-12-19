@@ -2,8 +2,12 @@
   background-color: transparent;
   &__content {
     display: flex;
-    align-items: center;
+    flex-flow: column;
     justify-content: space-between;
+
+    @include media-breakpoint-up(sm) {
+      flex-flow: row;
+    }
   }
   &__left {
     flex: 1;
