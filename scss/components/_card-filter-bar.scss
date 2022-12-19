@@ -12,7 +12,8 @@
   &__right {
     display: flex;
     div {
-      margin-left: 1rem;
+      display: flex;
+      align-items: center;
     }
     &:last-of-type {
       margin-left: 0;
@@ -20,5 +21,6 @@
   }
   &__view-options {
     display: flex;
+    margin-left: 1rem;
   }
 }
