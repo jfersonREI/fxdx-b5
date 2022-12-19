@@ -19,9 +19,9 @@
     grid-template-columns: repeat(4, 1fr);
   }
 
-  //grid-view
+  //list-view
 
-  &--grid-view {
+  &--list-view {
     grid-template-columns: repeat(1, 1fr);
 
     @include media-breakpoint-up(sm) {

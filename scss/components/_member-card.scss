@@ -86,7 +86,7 @@
   }
 }
 
-.member-card-grid.member-card-grid--grid-view {
+.member-card-grid.member-card-grid--list-view {
   @include media-breakpoint-up(md) {
     .member-card {
       padding: 2rem;
