@@ -1,0 +1,47 @@
+.button-feedback {
+  padding: 0.8125rem;
+  background-color: $primary;
+  color: #fff;
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  border-radius: 2rem;
+  min-height: 3.125rem;
+  min-width: 3.125rem;
+  box-shadow: rgba(0, 0, 0, 0.27) 0px 3px 4.65px;
+
+  &:active {
+    background-color: $primary-dark;
+  }
+
+  &__icon {
+    svg-icon,
+    svg {
+      fill: currentColor;
+      width: 1.5rem;
+      height: 1.5rem;
+    }
+  }
+
+  &__label {
+    max-width: 0;
+    padding-left: 0;
+    padding-right: 0;
+    display: inline-flex;
+    white-space: nowrap;
+    transition: all 0.3s;
+    overflow: hidden;
+    background-color: transparent;
+  }
+  &:hover &__label,
+  &:focus &__label {
+    max-width: 180px;
+    padding-left: 8px;
+    padding-right: 8px;
+  }
+  &--pos-btm-rt {
+    position: fixed;
+    bottom: 1.5rem;
+    right: 1.5rem;
+  }
+}
