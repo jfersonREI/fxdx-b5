@@ -9,6 +9,7 @@
   min-height: 3.125rem;
   min-width: 3.125rem;
   box-shadow: rgba(0, 0, 0, 0.27) 0px 3px 4.65px;
+  text-decoration: none;
 
   &:active {
     background-color: $primary-dark;
@@ -32,6 +33,10 @@
     transition: all 0.3s;
     overflow: hidden;
     background-color: transparent;
+  }
+  &:hover {
+    color: #fff;
+    text-decoration: none;
   }
   &:hover &__label,
   &:focus &__label {
